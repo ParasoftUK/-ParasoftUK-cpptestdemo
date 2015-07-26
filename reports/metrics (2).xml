@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Metrics writerVersion="0.1.1" hasViols="false" id="1438829492794" lang="en_US" climode="true" time="2015-07-22T11:39:22+01:00" machine="ParasoftUK1" toolName="DTP Engine for C/C++" toolId="c++test" toolVer="10.1.4" project="Misra Demo" buildId="build-2015-07-22 11:39:22" tag="Recommended Rules">
+  <TestConfig name="Recommended Rules" machine="ParasoftUK1" user="Andrew" pseudoUrl="builtin://Recommended Rules" />
+  <Analyzers>
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.pattern" name="Parasoft C/C++ Static Analyzer" ver="10.1.4" />
+    <Analyzer id="com.parasoft.xtest.dupcode.parser" name="Parasoft Code Duplication Parser" ver="10.1.4.20150706" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.metrics" name="Parasoft C/C++ Metrics Analyzer" ver="10.1.4" />
+    <Analyzer id="com.parasoft.xtest.dupcode.detector" name="Parasoft Code Duplication Detector" ver="10.1.4.20150706" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.flow" name="Parasoft C/C++ Flow Analyzer" ver="10.1.4" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.code" name="Parasoft C/C++ Code Analyzer" ver="10.1.4" />
+    <Analyzer id="xtest" name="Scope Analyzer" ver="1" />
+  </Analyzers>
+  <Repositories />
+  <Locations>
+    <Loc locRef="1" totLns="1040" projId="lib" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/lib/getopt.c" hash="1902780378" project="lib" resProjPath="lib/getopt.c" projPath="/lib" />
+    <Loc locRef="2" totLns="186" projId="lib" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/lib/getopt1.c" hash="-231510622" project="lib" resProjPath="lib/getopt1.c" projPath="/lib" />
+    <Loc locRef="3" totLns="117" projId="lib" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/lib/getline.cc" hash="-1003482131" project="lib" resProjPath="lib/getline.cc" projPath="/lib" />
+    <Loc locRef="4" totLns="27" projId="lib" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/lib/hash.cc" hash="-2034246803" project="lib" resProjPath="lib/hash.cc" projPath="/lib" />
+    <Loc locRef="5" totLns="26" projId="src" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/version.cc" hash="-914632550" project="src" resProjPath="src/version.cc" projPath="/src" />
+    <Loc locRef="6" totLns="175" projId="src" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/positions.cc" hash="1535193606" project="src" resProjPath="src/positions.cc" projPath="/src" />
+    <Loc locRef="7" totLns="1072" projId="src" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/options.cc" hash="333518089" project="src" resProjPath="src/options.cc" projPath="/src" />
+    <Loc locRef="8" totLns="159" projId="src" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/keyword.cc" hash="717995569" project="src" resProjPath="src/keyword.cc" projPath="/src" />
+    <Loc locRef="9" totLns="173" projId="src" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/keyword-list.cc" hash="699865168" project="src" resProjPath="src/keyword-list.cc" projPath="/src" />
+    <Loc locRef="10" totLns="1003" projId="src" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/input.cc" hash="-928228606" project="src" resProjPath="src/input.cc" projPath="/src" />
+    <Loc locRef="11" totLns="45" projId="src" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/bool-array.cc" hash="1152462269" project="src" resProjPath="src/bool-array.cc" projPath="/src" />
+    <Loc locRef="12" totLns="165" projId="src" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/hash-table.cc" hash="966543705" project="src" resProjPath="src/hash-table.cc" projPath="/src" />
+    <Loc locRef="13" totLns="1685" projId="src" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/search.cc" hash="-364779068" project="src" resProjPath="src/search.cc" projPath="/src" />
+    <Loc locRef="14" totLns="2105" projId="src" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/output.cc" hash="-1199708703" project="src" resProjPath="src/output.cc" projPath="/src" />
+    <Loc locRef="15" totLns="154" projId="src" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/main.cc" hash="653787721" project="src" resProjPath="src/main.cc" projPath="/src" />
+  </Locations>
+<Values>
+  <Metric id="METRIC.CC" itemId="lib/getopt.c#my_index" item="my_index" val="3.0" module="lib" locRef="1" ln="206" />
+  <Metric id="METRIC.CC" itemId="lib/getopt.c#exchange" item="exchange" val="5.0" module="lib" locRef="1" ln="296" />
+  <Metric id="METRIC.CC" itemId="lib/getopt.c#_getopt_initialize" item="_getopt_initialize" val="4.0" module="lib" locRef="1" ln="381" />
+  <Metric id="METRIC.CC" itemId="lib/getopt.c#_getopt_internal" item="_getopt_internal" val="70.0" module="lib" locRef="1" ln="503" />
+  <Metric id="METRIC.CC" itemId="lib/getopt.c#getopt" item="getopt" val="1.0" module="lib" locRef="1" ln="957" />
+  <Metric id="METRIC.CC" itemId="lib/getopt1.c#getopt_long" item="getopt_long" val="1.0" module="lib" locRef="2" ln="65" />
+  <Metric id="METRIC.CC" itemId="lib/getopt1.c#getopt_long_only" item="getopt_long_only" val="1.0" module="lib" locRef="2" ln="81" />
+  <Metric id="METRIC.CC" itemId="lib/getline.cc#getstr(char **, unsigned int *, __sFILE64 *, char, unsigned int)" item="getstr(char **, unsigned int *, __sFILE64 *, char, unsigned int)" val="10.0" module="lib" locRef="3" ln="39" />
+  <Metric id="METRIC.CC" itemId="lib/getline.cc#get_line(char **, unsigned int *, __sFILE64 *)" item="get_line(char **, unsigned int *, __sFILE64 *)" val="1.0" module="lib" locRef="3" ln="108" />
+  <Metric id="METRIC.CC" itemId="lib/getline.cc#get_delim(char **, unsigned int *, int, __sFILE64 *)" item="get_delim(char **, unsigned int *, int, __sFILE64 *)" val="1.0" module="lib" locRef="3" ln="114" />
+  <Metric id="METRIC.CC" itemId="lib/hash.cc#hashpjw(const unsigned char *, unsigned int)" item="hashpjw(const unsigned char *, unsigned int)" val="3.0" module="lib" locRef="4" ln="15" />
+  <Metric id="METRIC.CC" itemId="src/positions.cc#Positions::contains(int) const" item="Positions::contains(int) const" val="4.0" module="src" type="Positions" locRef="6" ln="33" />
+  <Metric id="METRIC.CC" itemId="src/positions.cc#Positions::add(int)" item="Positions::add(int)" val="5.0" module="src" type="Positions" locRef="6" ln="49" />
+  <Metric id="METRIC.CC" itemId="src/positions.cc#Positions::remove(int)" item="Positions::remove(int)" val="8.0" module="src" type="Positions" locRef="6" ln="79" />
+  <Metric id="METRIC.CC" itemId="src/positions.cc#Positions::print() const" item="Positions::print() const" val="9.0" module="src" type="Positions" locRef="6" ln="123" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::short_usage(__sFILE64 *)" item="Options::short_usage(__sFILE64 *)" val="1.0" module="src" type="Options" locRef="7" ln="71" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::long_usage(__sFILE64 *)" item="Options::long_usage(__sFILE64 *)" val="1.0" module="src" type="Options" locRef="7" ln="78" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::print_options() const" item="Options::print_options() const" val="13.0" module="src" type="Options" locRef="7" ln="269" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#PositionStringParser::PositionStringParser(const char *, int, int, int, int, int)" item="PositionStringParser::PositionStringParser(const char *, int, int, int, int, int)" val="1.0" module="src" type="PositionStringParser" locRef="7" ln="369" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#PositionStringParser::nextPosition()" item="PositionStringParser::nextPosition()" val="12.0" module="src" type="PositionStringParser" locRef="7" ln="384" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::Options()" item="Options::Options()" val="1.0" module="src" type="Options" locRef="7" ln="450" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::~Options()" item="Options::~Options()" val="5.0" module="src" type="Options" locRef="7" ln="475" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::set_language(const char *)" item="Options::set_language(const char *)" val="6.0" module="src" type="Options" locRef="7" ln="561" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::set_total_switches(int)" item="Options::set_total_switches(int)" val="2.0" module="src" type="Options" locRef="7" ln="586" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::set_function_name(const char *)" item="Options::set_function_name(const char *)" val="2.0" module="src" type="Options" locRef="7" ln="597" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::set_slot_name(const char *)" item="Options::set_slot_name(const char *)" val="2.0" module="src" type="Options" locRef="7" ln="605" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::set_initializer_suffix(const char *)" item="Options::set_initializer_suffix(const char *)" val="2.0" module="src" type="Options" locRef="7" ln="613" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::set_class_name(const char *)" item="Options::set_class_name(const char *)" val="2.0" module="src" type="Options" locRef="7" ln="621" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::set_hash_name(const char *)" item="Options::set_hash_name(const char *)" val="2.0" module="src" type="Options" locRef="7" ln="629" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::set_wordlist_name(const char *)" item="Options::set_wordlist_name(const char *)" val="2.0" module="src" type="Options" locRef="7" ln="637" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::set_lengthtable_name(const char *)" item="Options::set_lengthtable_name(const char *)" val="2.0" module="src" type="Options" locRef="7" ln="645" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::set_stringpool_name(const char *)" item="Options::set_stringpool_name(const char *)" val="2.0" module="src" type="Options" locRef="7" ln="653" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::set_delimiters(const char *)" item="Options::set_delimiters(const char *)" val="2.0" module="src" type="Options" locRef="7" ln="661" />
+  <Metric id="METRIC.CC" itemId="src/options.cc#Options::parse_options(int, char **)" item="Options::parse_options(int, char **)" val="68.0" module="src" type="Options" locRef="7" ln="717" />
+  <Metric id="METRIC.CC" itemId="src/keyword.cc#sort_char_set(unsigned int *, int)" item="sort_char_set(unsigned int *, int)" val="3.0" module="src" locRef="8" ln="33" />
+  <Metric id="METRIC.CC" itemId="src/keyword.cc#KeywordExt::init_selchars_low(const Positions &amp;, const unsigned int *, const unsigned int *)" item="KeywordExt::init_selchars_low(const Positions &amp;, const unsigned int *, const unsigned int *)" val="6.0" module="src" type="KeywordExt" locRef="8" ln="75" />
+  <Metric id="METRIC.CC" itemId="src/keyword.cc#KeywordExt::init_selchars_tuple(const Positions &amp;, const unsigned int *)" item="KeywordExt::init_selchars_tuple(const Positions &amp;, const unsigned int *)" val="1.0" module="src" type="KeywordExt" locRef="8" ln="114" />
+  <Metric id="METRIC.CC" itemId="src/keyword.cc#KeywordExt::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *)" item="KeywordExt::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *)" val="1.0" module="src" type="KeywordExt" locRef="8" ln="120" />
+  <Metric id="METRIC.CC" itemId="src/keyword.cc#KeywordExt::delete_selchars()" item="KeywordExt::delete_selchars()" val="1.0" module="src" type="KeywordExt" locRef="8" ln="131" />
+  <Metric id="METRIC.CC" itemId="src/keyword.cc#Keyword_Factory::Keyword_Factory()" item="Keyword_Factory::Keyword_Factory()" val="1.0" module="src" type="Keyword_Factory" locRef="8" ln="139" />
+  <Metric id="METRIC.CC" itemId="src/keyword.cc#Keyword_Factory::~Keyword_Factory()" item="Keyword_Factory::~Keyword_Factory()" val="1.0" module="src" type="Keyword_Factory" locRef="8" ln="143" />
+  <Metric id="METRIC.CC" itemId="src/keyword-list.cc#Keyword_List::Keyword_List(Keyword *)" item="Keyword_List::Keyword_List(Keyword *)" val="1.0" module="src" type="Keyword_List" locRef="9" ln="29" />
+  <Metric id="METRIC.CC" itemId="src/keyword-list.cc#KeywordExt_List::KeywordExt_List(KeywordExt *)" item="KeywordExt_List::KeywordExt_List(KeywordExt *)" val="1.0" module="src" type="KeywordExt_List" locRef="9" ln="37" />
+  <Metric id="METRIC.CC" itemId="src/keyword-list.cc#copy_list(Keyword_List *)" item="copy_list(Keyword_List *)" val="2.0" module="src" locRef="9" ln="46" />
+  <Metric id="METRIC.CC" itemId="src/keyword-list.cc#copy_list(KeywordExt_List *)" item="copy_list(KeywordExt_List *)" val="1.0" module="src" locRef="9" ln="63" />
+  <Metric id="METRIC.CC" itemId="src/keyword-list.cc#delete_list(Keyword_List *)" item="delete_list(Keyword_List *)" val="2.0" module="src" locRef="9" ln="70" />
+  <Metric id="METRIC.CC" itemId="src/keyword-list.cc#merge(Keyword_List *, Keyword_List *, bool (*)(Keyword *, Keyword *))" item="merge(Keyword_List *, Keyword_List *, bool (*)(Keyword *, Keyword *))" val="5.0" module="src" locRef="9" ln="85" />
+  <Metric id="METRIC.CC" itemId="src/keyword-list.cc#mergesort_list(Keyword_List *, bool (*)(Keyword *, Keyword *))" item="mergesort_list(Keyword_List *, bool (*)(Keyword *, Keyword *))" val="5.0" module="src" locRef="9" ln="123" />
+  <Metric id="METRIC.CC" itemId="src/keyword-list.cc#mergesort_list(KeywordExt_List *, bool (*)(KeywordExt *, KeywordExt *))" item="mergesort_list(KeywordExt_List *, bool (*)(KeywordExt *, KeywordExt *))" val="1.0" module="src" locRef="9" ln="157" />
+  <Metric id="METRIC.CC" itemId="src/input.cc#Input::Input(__sFILE64 *, Keyword_Factory *)" item="Input::Input(__sFILE64 *, Keyword_Factory *)" val="1.0" module="src" type="Input" locRef="10" ln="31" />
+  <Metric id="METRIC.CC" itemId="src/input.cc#pretty_input_file_name()" item="pretty_input_file_name()" val="2.0" module="src" locRef="10" ln="39" />
+  <Metric id="METRIC.CC" itemId="src/input.cc#is_declaration(const char *, const char *, unsigned int, const char *)" item="is_declaration(const char *, const char *, unsigned int, const char *)" val="7.0" module="src" locRef="10" ln="49" />
+  <Metric id="METRIC.CC" itemId="src/input.cc#is_declaration_with_arg(const char *, const char *, unsigned int, const char *, char **)" item="is_declaration_with_arg(const char *, const char *, unsigned int, const char *, char **)" val="9.0" module="src" locRef="10" ln="91" />
+  <Metric id="METRIC.CC" itemId="src/input.cc#is_define_declaration(const char *, const char *, unsigned int, const char *, char **)" item="is_define_declaration(const char *, const char *, unsigned int, const char *, char **)" val="15.0" module="src" locRef="10" ln="151" />
+  <Metric id="METRIC.CC" itemId="src/input.cc#Input::read_input()" item="Input::read_input()" val="116.0" module="src" type="Input" locRef="10" ln="230" />
+  <Metric id="METRIC.CC" itemId="src/input.cc#Input::~Input()" item="Input::~Input()" val="1.0" module="src" type="Input" locRef="10" ln="996" />
+  <Metric id="METRIC.CC" itemId="src/bool-array.cc#Bool_Array::~Bool_Array()" item="Bool_Array::~Bool_Array()" val="2.0" module="src" type="Bool_Array" locRef="11" ln="29" />
+  <Metric id="METRIC.CC" itemId="src/hash-table.cc#Hash_Table::Hash_Table(unsigned int, bool)" item="Hash_Table::Hash_Table(unsigned int, bool)" val="6.0" module="src" type="Hash_Table" locRef="12" ln="41" />
+  <Metric id="METRIC.CC" itemId="src/hash-table.cc#Hash_Table::~Hash_Table()" item="Hash_Table::~Hash_Table()" val="1.0" module="src" type="Hash_Table" locRef="12" ln="84" />
+  <Metric id="METRIC.CC" itemId="src/hash-table.cc#Hash_Table::dump() const" item="Hash_Table::dump() const" val="8.0" module="src" type="Hash_Table" locRef="12" ln="91" />
+  <Metric id="METRIC.CC" itemId="src/hash-table.cc#Hash_Table::equal(KeywordExt *, KeywordExt *) const" item="Hash_Table::equal(KeywordExt *, KeywordExt *) const" val="1.0" module="src" type="Hash_Table" locRef="12" ln="127" />
+  <Metric id="METRIC.CC" itemId="src/hash-table.cc#Hash_Table::insert(KeywordExt *)" item="Hash_Table::insert(KeywordExt *)" val="3.0" module="src" type="Hash_Table" locRef="12" ln="140" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::Search(KeywordExt_List *)" item="Search::Search(KeywordExt_List *)" val="1.0" module="src" type="Search" locRef="13" ln="124" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::prepare()" item="Search::prepare()" val="14.0" module="src" type="Search" locRef="13" ln="130" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::compute_alpha_size() const" item="Search::compute_alpha_size() const" val="1.0" module="src" type="Search" locRef="13" ln="188" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::compute_alpha_unify() const" item="Search::compute_alpha_unify() const" val="6.0" module="src" type="Search" locRef="13" ln="196" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::init_selchars_tuple(const Positions &amp;, const unsigned int *) const" item="Search::init_selchars_tuple(const Positions &amp;, const unsigned int *) const" val="3.0" module="src" type="Search" locRef="13" ln="216" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::delete_selchars() const" item="Search::delete_selchars() const" val="3.0" module="src" type="Search" locRef="13" ln="224" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::count_duplicates_tuple(const Positions &amp;, const unsigned int *) const" item="Search::count_duplicates_tuple(const Positions &amp;, const unsigned int *) const" val="4.0" module="src" type="Search" locRef="13" ln="235" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::find_positions()" item="Search::find_positions()" val="57.0" module="src" type="Search" locRef="13" ln="261" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::count_duplicates_tuple() const" item="Search::count_duplicates_tuple() const" val="1.0" module="src" type="Search" locRef="13" ln="488" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::compute_alpha_size(const unsigned int *) const" item="Search::compute_alpha_size(const unsigned int *) const" val="4.0" module="src" type="Search" locRef="13" ln="500" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::compute_alpha_unify(const Positions &amp;, const unsigned int *) const" item="Search::compute_alpha_unify(const Positions &amp;, const unsigned int *) const" val="15.0" module="src" type="Search" locRef="13" ln="511" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *) const" item="Search::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *) const" val="3.0" module="src" type="Search" locRef="13" ln="574" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::count_duplicates_multiset(const unsigned int *) const" item="Search::count_duplicates_multiset(const unsigned int *) const" val="4.0" module="src" type="Search" locRef="13" ln="586" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::find_alpha_inc()" item="Search::find_alpha_inc()" val="25.0" module="src" type="Search" locRef="13" ln="614" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::prepare_asso_values()" item="Search::prepare_asso_values()" val="27.0" module="src" type="Search" locRef="13" ln="731" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#equals(const unsigned int *, const unsigned int *, unsigned int)" item="equals(const unsigned int *, const unsigned int *, unsigned int)" val="3.0" module="src" locRef="13" ln="964" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::compute_partition(bool *) const" item="Search::compute_partition(bool *) const" val="14.0" module="src" type="Search" locRef="13" ln="978" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#delete_partition(EquivalenceClass *)" item="delete_partition(EquivalenceClass *)" val="2.0" module="src" locRef="13" ln="1038" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::count_possible_collisions(EquivalenceClass *, unsigned int) const" item="Search::count_possible_collisions(EquivalenceClass *, unsigned int) const" val="12.0" module="src" type="Search" locRef="13" ln="1053" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::unchanged_partition(EquivalenceClass *, unsigned int) const" item="Search::unchanged_partition(EquivalenceClass *, unsigned int) const" val="10.0" module="src" type="Search" locRef="13" ln="1090" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::find_asso_values()" item="Search::find_asso_values()" val="66.0" module="src" type="Search" locRef="13" ln="1116" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::compute_hash(KeywordExt *) const" item="Search::compute_hash(KeywordExt *) const" val="3.0" module="src" type="Search" locRef="13" ln="1474" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::find_good_asso_values()" item="Search::find_good_asso_values()" val="11.0" module="src" type="Search" locRef="13" ln="1489" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#less_by_hash_value(KeywordExt *, KeywordExt *)" item="less_by_hash_value(KeywordExt *, KeywordExt *)" val="1.0" module="src" locRef="13" ln="1571" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::sort()" item="Search::sort()" val="1.0" module="src" type="Search" locRef="13" ln="1579" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::optimize()" item="Search::optimize()" val="14.0" module="src" type="Search" locRef="13" ln="1585" />
+  <Metric id="METRIC.CC" itemId="src/search.cc#Search::~Search()" item="Search::~Search()" val="10.0" module="src" type="Search" locRef="13" ln="1646" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#smallest_integral_type(int)" item="smallest_integral_type(int)" val="3.0" module="src" locRef="14" ln="45" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#smallest_integral_type(int, int)" item="smallest_integral_type(int, int)" val="4.0" module="src" locRef="14" ln="56" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::Output(KeywordExt_List *, const char *, unsigned int, const char *, const char *, const char *, const char *, unsigned int, const char *, const char *, unsigned int, bool, int, int, int, bool, const Positions &amp;, const unsigned int *, int, unsigned int, const int *)" item="Output::Output(KeywordExt_List *, const char *, unsigned int, const char *, const char *, const char *, const char *, unsigned int, const char *, const char *, unsigned int, bool, int, int, int, bool, const Positions &amp;, const unsigned int *, int, unsigned int, const int *)" val="1.0" module="src" type="Output" locRef="14" ln="77" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::compute_min_max()" item="Output::compute_min_max()" val="2.0" module="src" type="Output" locRef="14" ln="113" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::num_hash_values() const" item="Output::num_hash_values() const" val="2.0" module="src" type="Output" locRef="14" ln="131" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Constants::Output_Constants()" item="Output_Constants::Output_Constants()" val="1.0" module="src" type="Output_Constants" locRef="14" ln="150" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Constants::~Output_Constants()" item="Output_Constants::~Output_Constants()" val="1.0" module="src" type="Output_Constants" locRef="14" ln="151" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Defines::Output_Defines()" item="Output_Defines::Output_Defines()" val="1.0" module="src" type="Output_Defines" locRef="14" ln="161" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Defines::~Output_Defines()" item="Output_Defines::~Output_Defines()" val="1.0" module="src" type="Output_Defines" locRef="14" ln="162" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Defines::output_start()" item="Output_Defines::output_start()" val="1.0" module="src" type="Output_Defines" locRef="14" ln="165" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Defines::output_item(const char *, int)" item="Output_Defines::output_item(const char *, int)" val="1.0" module="src" type="Output_Defines" locRef="14" ln="170" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Defines::output_end()" item="Output_Defines::output_end()" val="1.0" module="src" type="Output_Defines" locRef="14" ln="175" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Enum::Output_Enum(const char *)" item="Output_Enum::Output_Enum(const char *)" val="1.0" module="src" type="Output_Enum" locRef="14" ln="186" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Enum::~Output_Enum()" item="Output_Enum::~Output_Enum()" val="1.0" module="src" type="Output_Enum" locRef="14" ln="188" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Enum::output_start()" item="Output_Enum::output_start()" val="1.0" module="src" type="Output_Enum" locRef="14" ln="194" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Enum::output_item(const char *, int)" item="Output_Enum::output_item(const char *, int)" val="2.0" module="src" type="Output_Enum" locRef="14" ln="202" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Enum::output_end()" item="Output_Enum::output_end()" val="2.0" module="src" type="Output_Enum" locRef="14" ln="210" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output_constants(Output_Constants &amp;) const" item="Output::output_constants(Output_Constants &amp;) const" val="1.0" module="src" type="Output" locRef="14" ln="220" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#output_upperlower_table()" item="output_upperlower_table()" val="4.0" module="src" locRef="14" ln="246" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#output_upperlower_strcmp()" item="output_upperlower_strcmp()" val="1.0" module="src" locRef="14" ln="272" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#output_upperlower_strncmp()" item="output_upperlower_strncmp()" val="1.0" module="src" locRef="14" ln="322" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#output_upperlower_memcmp()" item="output_upperlower_memcmp()" val="1.0" module="src" locRef="14" ln="382" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#output_string(const char *, int)" item="output_string(const char *, int)" val="4.0" module="src" locRef="14" ln="445" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#output_line_directive(unsigned int)" item="output_line_directive(unsigned int)" val="2.0" module="src" locRef="14" ln="477" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#output_const_type(const char *, const char *)" item="output_const_type(const char *, const char *)" val="2.0" module="src" locRef="14" ln="494" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Expr::Output_Expr()" item="Output_Expr::Output_Expr()" val="1.0" module="src" type="Output_Expr" locRef="14" ln="511" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Expr::~Output_Expr()" item="Output_Expr::~Output_Expr()" val="1.0" module="src" type="Output_Expr" locRef="14" ln="512" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Expr1::Output_Expr1(const char *)" item="Output_Expr1::Output_Expr1(const char *)" val="1.0" module="src" type="Output_Expr1" locRef="14" ln="520" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Expr1::~Output_Expr1()" item="Output_Expr1::~Output_Expr1()" val="1.0" module="src" type="Output_Expr1" locRef="14" ln="521" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Expr1::output_expr() const" item="Output_Expr1::output_expr() const" val="1.0" module="src" type="Output_Expr1" locRef="14" ln="526" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare::Output_Compare()" item="Output_Compare::Output_Compare()" val="1.0" module="src" type="Output_Compare" locRef="14" ln="571" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare::~Output_Compare()" item="Output_Compare::~Output_Compare()" val="1.0" module="src" type="Output_Compare" locRef="14" ln="572" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare::output_firstchar_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare::output_firstchar_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="2.0" module="src" type="Output_Compare" locRef="14" ln="575" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare_Strcmp::Output_Compare_Strcmp()" item="Output_Compare_Strcmp::Output_Compare_Strcmp()" val="1.0" module="src" type="Output_Compare_Strcmp" locRef="14" ln="609" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare_Strcmp::~Output_Compare_Strcmp()" item="Output_Compare_Strcmp::~Output_Compare_Strcmp()" val="1.0" module="src" type="Output_Compare_Strcmp" locRef="14" ln="610" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare_Strcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare_Strcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="3.0" module="src" type="Output_Compare_Strcmp" locRef="14" ln="613" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare_Strncmp::Output_Compare_Strncmp()" item="Output_Compare_Strncmp::Output_Compare_Strncmp()" val="1.0" module="src" type="Output_Compare_Strncmp" locRef="14" ln="645" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare_Strncmp::~Output_Compare_Strncmp()" item="Output_Compare_Strncmp::~Output_Compare_Strncmp()" val="1.0" module="src" type="Output_Compare_Strncmp" locRef="14" ln="646" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare_Strncmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare_Strncmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="3.0" module="src" type="Output_Compare_Strncmp" locRef="14" ln="649" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare_Memcmp::Output_Compare_Memcmp()" item="Output_Compare_Memcmp::Output_Compare_Memcmp()" val="1.0" module="src" type="Output_Compare_Memcmp" locRef="14" ln="685" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare_Memcmp::~Output_Compare_Memcmp()" item="Output_Compare_Memcmp::~Output_Compare_Memcmp()" val="1.0" module="src" type="Output_Compare_Memcmp" locRef="14" ln="686" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output_Compare_Memcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare_Memcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="3.0" module="src" type="Output_Compare_Memcmp" locRef="14" ln="689" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output_asso_values_ref(int) const" item="Output::output_asso_values_ref(int) const" val="3.0" module="src" type="Output" locRef="14" ln="719" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output_hash_function() const" item="Output::output_hash_function() const" val="26.0" module="src" type="Output" locRef="14" ln="742" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output_keylength_table() const" item="Output::output_keylength_table() const" val="23.0" module="src" type="Output" locRef="14" ln="929" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output_string_pool() const" item="Output::output_string_pool() const" val="27.0" module="src" type="Output" locRef="14" ln="1000" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#output_keyword_entry(KeywordExt *, int, const char *)" item="output_keyword_entry(KeywordExt *, int, const char *)" val="7.0" module="src" locRef="14" ln="1100" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#output_keyword_blank_entries(int, const char *)" item="output_keyword_blank_entries(int, const char *)" val="11.0" module="src" locRef="14" ln="1125" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output_keyword_table() const" item="Output::output_keyword_table() const" val="13.0" module="src" type="Output" locRef="14" ln="1173" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output_lookup_array() const" item="Output::output_lookup_array() const" val="24.0" module="src" type="Output" locRef="14" ln="1243" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output_lookup_pools() const" item="Output::output_lookup_pools() const" val="3.0" module="src" type="Output" locRef="14" ln="1392" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output_lookup_tables() const" item="Output::output_lookup_tables() const" val="5.0" module="src" type="Output" locRef="14" ln="1408" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#output_switch_case(KeywordExt_List *, int, int *)" item="output_switch_case(KeywordExt_List *, int, int *)" val="8.0" module="src" locRef="14" ln="1433" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#output_switches(KeywordExt_List *, int, int, int, int, int)" item="output_switches(KeywordExt_List *, int, int, int, int, int)" val="9.0" module="src" locRef="14" ln="1493" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output_lookup_function_body(const Output_Compare &amp;) const" item="Output::output_lookup_function_body(const Output_Compare &amp;) const" val="36.0" module="src" type="Output" locRef="14" ln="1576" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output_lookup_function() const" item="Output::output_lookup_function() const" val="8.0" module="src" type="Output" locRef="14" ln="1882" />
+  <Metric id="METRIC.CC" itemId="src/output.cc#Output::output()" item="Output::output()" val="21.0" module="src" type="Output" locRef="14" ln="1952" />
+  <Metric id="METRIC.CC" itemId="src/main.cc#KeywordExt_Factory::create_keyword(const char *, int, const char *)" item="KeywordExt_Factory::create_keyword(const char *, int, const char *)" val="1.0" module="src" type="KeywordExt_Factory" locRef="15" ln="41" />
+  <Metric id="METRIC.CC" itemId="src/main.cc#main" item="main" val="11.0" module="src" locRef="15" ln="49" />
+  <Metric id="METRIC.NBD" itemId="lib/getopt.c#my_index" item="my_index" val="1.0" module="lib" locRef="1" ln="206" />
+  <Metric id="METRIC.NBD" itemId="lib/getopt.c#exchange" item="exchange" val="3.0" module="lib" locRef="1" ln="296" />
+  <Metric id="METRIC.NBD" itemId="lib/getopt.c#_getopt_initialize" item="_getopt_initialize" val="1.0" module="lib" locRef="1" ln="381" />
+  <Metric id="METRIC.NBD" itemId="lib/getopt.c#_getopt_internal" item="_getopt_internal" val="5.0" module="lib" locRef="1" ln="503" />
+  <Metric id="METRIC.NBD" itemId="lib/getopt.c#getopt" item="getopt" val="0.0" module="lib" locRef="1" ln="957" />
+  <Metric id="METRIC.NBD" itemId="lib/getopt1.c#getopt_long" item="getopt_long" val="0.0" module="lib" locRef="2" ln="65" />
+  <Metric id="METRIC.NBD" itemId="lib/getopt1.c#getopt_long_only" item="getopt_long_only" val="0.0" module="lib" locRef="2" ln="81" />
+  <Metric id="METRIC.NBD" itemId="lib/getline.cc#getstr(char **, unsigned int *, __sFILE64 *, char, unsigned int)" item="getstr(char **, unsigned int *, __sFILE64 *, char, unsigned int)" val="3.0" module="lib" locRef="3" ln="39" />
+  <Metric id="METRIC.NBD" itemId="lib/getline.cc#get_line(char **, unsigned int *, __sFILE64 *)" item="get_line(char **, unsigned int *, __sFILE64 *)" val="0.0" module="lib" locRef="3" ln="108" />
+  <Metric id="METRIC.NBD" itemId="lib/getline.cc#get_delim(char **, unsigned int *, int, __sFILE64 *)" item="get_delim(char **, unsigned int *, int, __sFILE64 *)" val="0.0" module="lib" locRef="3" ln="114" />
+  <Metric id="METRIC.NBD" itemId="lib/hash.cc#hashpjw(const unsigned char *, unsigned int)" item="hashpjw(const unsigned char *, unsigned int)" val="1.0" module="lib" locRef="4" ln="15" />
+  <Metric id="METRIC.NBD" itemId="src/positions.cc#Positions::contains(int) const" item="Positions::contains(int) const" val="1.0" module="src" type="Positions" locRef="6" ln="33" />
+  <Metric id="METRIC.NBD" itemId="src/positions.cc#Positions::add(int)" item="Positions::add(int)" val="2.0" module="src" type="Positions" locRef="6" ln="49" />
+  <Metric id="METRIC.NBD" itemId="src/positions.cc#Positions::remove(int)" item="Positions::remove(int)" val="4.0" module="src" type="Positions" locRef="6" ln="79" />
+  <Metric id="METRIC.NBD" itemId="src/positions.cc#Positions::print() const" item="Positions::print() const" val="5.0" module="src" type="Positions" locRef="6" ln="123" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::short_usage(__sFILE64 *)" item="Options::short_usage(__sFILE64 *)" val="0.0" module="src" type="Options" locRef="7" ln="71" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::long_usage(__sFILE64 *)" item="Options::long_usage(__sFILE64 *)" val="0.0" module="src" type="Options" locRef="7" ln="78" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::print_options() const" item="Options::print_options() const" val="4.0" module="src" type="Options" locRef="7" ln="269" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#PositionStringParser::PositionStringParser(const char *, int, int, int, int, int)" item="PositionStringParser::PositionStringParser(const char *, int, int, int, int, int)" val="0.0" module="src" type="PositionStringParser" locRef="7" ln="369" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#PositionStringParser::nextPosition()" item="PositionStringParser::nextPosition()" val="4.0" module="src" type="PositionStringParser" locRef="7" ln="384" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::Options()" item="Options::Options()" val="0.0" module="src" type="Options" locRef="7" ln="450" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::~Options()" item="Options::~Options()" val="2.0" module="src" type="Options" locRef="7" ln="475" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::set_language(const char *)" item="Options::set_language(const char *)" val="2.0" module="src" type="Options" locRef="7" ln="561" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::set_total_switches(int)" item="Options::set_total_switches(int)" val="1.0" module="src" type="Options" locRef="7" ln="586" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::set_function_name(const char *)" item="Options::set_function_name(const char *)" val="0.0" module="src" type="Options" locRef="7" ln="597" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::set_slot_name(const char *)" item="Options::set_slot_name(const char *)" val="0.0" module="src" type="Options" locRef="7" ln="605" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::set_initializer_suffix(const char *)" item="Options::set_initializer_suffix(const char *)" val="0.0" module="src" type="Options" locRef="7" ln="613" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::set_class_name(const char *)" item="Options::set_class_name(const char *)" val="0.0" module="src" type="Options" locRef="7" ln="621" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::set_hash_name(const char *)" item="Options::set_hash_name(const char *)" val="0.0" module="src" type="Options" locRef="7" ln="629" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::set_wordlist_name(const char *)" item="Options::set_wordlist_name(const char *)" val="0.0" module="src" type="Options" locRef="7" ln="637" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::set_lengthtable_name(const char *)" item="Options::set_lengthtable_name(const char *)" val="0.0" module="src" type="Options" locRef="7" ln="645" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::set_stringpool_name(const char *)" item="Options::set_stringpool_name(const char *)" val="0.0" module="src" type="Options" locRef="7" ln="653" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::set_delimiters(const char *)" item="Options::set_delimiters(const char *)" val="0.0" module="src" type="Options" locRef="7" ln="661" />
+  <Metric id="METRIC.NBD" itemId="src/options.cc#Options::parse_options(int, char **)" item="Options::parse_options(int, char **)" val="6.0" module="src" type="Options" locRef="7" ln="717" />
+  <Metric id="METRIC.NBD" itemId="src/keyword.cc#sort_char_set(unsigned int *, int)" item="sort_char_set(unsigned int *, int)" val="1.0" module="src" locRef="8" ln="33" />
+  <Metric id="METRIC.NBD" itemId="src/keyword.cc#KeywordExt::init_selchars_low(const Positions &amp;, const unsigned int *, const unsigned int *)" item="KeywordExt::init_selchars_low(const Positions &amp;, const unsigned int *, const unsigned int *)" val="2.0" module="src" type="KeywordExt" locRef="8" ln="75" />
+  <Metric id="METRIC.NBD" itemId="src/keyword.cc#KeywordExt::init_selchars_tuple(const Positions &amp;, const unsigned int *)" item="KeywordExt::init_selchars_tuple(const Positions &amp;, const unsigned int *)" val="0.0" module="src" type="KeywordExt" locRef="8" ln="114" />
+  <Metric id="METRIC.NBD" itemId="src/keyword.cc#KeywordExt::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *)" item="KeywordExt::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *)" val="0.0" module="src" type="KeywordExt" locRef="8" ln="120" />
+  <Metric id="METRIC.NBD" itemId="src/keyword.cc#KeywordExt::delete_selchars()" item="KeywordExt::delete_selchars()" val="0.0" module="src" type="KeywordExt" locRef="8" ln="131" />
+  <Metric id="METRIC.NBD" itemId="src/keyword.cc#Keyword_Factory::Keyword_Factory()" item="Keyword_Factory::Keyword_Factory()" val="0.0" module="src" type="Keyword_Factory" locRef="8" ln="139" />
+  <Metric id="METRIC.NBD" itemId="src/keyword.cc#Keyword_Factory::~Keyword_Factory()" item="Keyword_Factory::~Keyword_Factory()" val="0.0" module="src" type="Keyword_Factory" locRef="8" ln="143" />
+  <Metric id="METRIC.NBD" itemId="src/keyword-list.cc#Keyword_List::Keyword_List(Keyword *)" item="Keyword_List::Keyword_List(Keyword *)" val="0.0" module="src" type="Keyword_List" locRef="9" ln="29" />
+  <Metric id="METRIC.NBD" itemId="src/keyword-list.cc#KeywordExt_List::KeywordExt_List(KeywordExt *)" item="KeywordExt_List::KeywordExt_List(KeywordExt *)" val="0.0" module="src" type="KeywordExt_List" locRef="9" ln="37" />
+  <Metric id="METRIC.NBD" itemId="src/keyword-list.cc#copy_list(Keyword_List *)" item="copy_list(Keyword_List *)" val="1.0" module="src" locRef="9" ln="46" />
+  <Metric id="METRIC.NBD" itemId="src/keyword-list.cc#copy_list(KeywordExt_List *)" item="copy_list(KeywordExt_List *)" val="0.0" module="src" locRef="9" ln="63" />
+  <Metric id="METRIC.NBD" itemId="src/keyword-list.cc#delete_list(Keyword_List *)" item="delete_list(Keyword_List *)" val="1.0" module="src" locRef="9" ln="70" />
+  <Metric id="METRIC.NBD" itemId="src/keyword-list.cc#merge(Keyword_List *, Keyword_List *, bool (*)(Keyword *, Keyword *))" item="merge(Keyword_List *, Keyword_List *, bool (*)(Keyword *, Keyword *))" val="2.0" module="src" locRef="9" ln="85" />
+  <Metric id="METRIC.NBD" itemId="src/keyword-list.cc#mergesort_list(Keyword_List *, bool (*)(Keyword *, Keyword *))" item="mergesort_list(Keyword_List *, bool (*)(Keyword *, Keyword *))" val="2.0" module="src" locRef="9" ln="123" />
+  <Metric id="METRIC.NBD" itemId="src/keyword-list.cc#mergesort_list(KeywordExt_List *, bool (*)(KeywordExt *, KeywordExt *))" item="mergesort_list(KeywordExt_List *, bool (*)(KeywordExt *, KeywordExt *))" val="0.0" module="src" locRef="9" ln="157" />
+  <Metric id="METRIC.NBD" itemId="src/input.cc#Input::Input(__sFILE64 *, Keyword_Factory *)" item="Input::Input(__sFILE64 *, Keyword_Factory *)" val="0.0" module="src" type="Input" locRef="10" ln="31" />
+  <Metric id="METRIC.NBD" itemId="src/input.cc#pretty_input_file_name()" item="pretty_input_file_name()" val="0.0" module="src" locRef="10" ln="39" />
+  <Metric id="METRIC.NBD" itemId="src/input.cc#is_declaration(const char *, const char *, unsigned int, const char *)" item="is_declaration(const char *, const char *, unsigned int, const char *)" val="1.0" module="src" locRef="10" ln="49" />
+  <Metric id="METRIC.NBD" itemId="src/input.cc#is_declaration_with_arg(const char *, const char *, unsigned int, const char *, char **)" item="is_declaration_with_arg(const char *, const char *, unsigned int, const char *, char **)" val="1.0" module="src" locRef="10" ln="91" />
+  <Metric id="METRIC.NBD" itemId="src/input.cc#is_define_declaration(const char *, const char *, unsigned int, const char *, char **)" item="is_define_declaration(const char *, const char *, unsigned int, const char *, char **)" val="2.0" module="src" locRef="10" ln="151" />
+  <Metric id="METRIC.NBD" itemId="src/input.cc#Input::read_input()" item="Input::read_input()" val="9.0" module="src" type="Input" locRef="10" ln="230" />
+  <Metric id="METRIC.NBD" itemId="src/input.cc#Input::~Input()" item="Input::~Input()" val="0.0" module="src" type="Input" locRef="10" ln="996" />
+  <Metric id="METRIC.NBD" itemId="src/bool-array.cc#Bool_Array::~Bool_Array()" item="Bool_Array::~Bool_Array()" val="0.0" module="src" type="Bool_Array" locRef="11" ln="29" />
+  <Metric id="METRIC.NBD" itemId="src/hash-table.cc#Hash_Table::Hash_Table(unsigned int, bool)" item="Hash_Table::Hash_Table(unsigned int, bool)" val="1.0" module="src" type="Hash_Table" locRef="12" ln="41" />
+  <Metric id="METRIC.NBD" itemId="src/hash-table.cc#Hash_Table::~Hash_Table()" item="Hash_Table::~Hash_Table()" val="0.0" module="src" type="Hash_Table" locRef="12" ln="84" />
+  <Metric id="METRIC.NBD" itemId="src/hash-table.cc#Hash_Table::dump() const" item="Hash_Table::dump() const" val="1.0" module="src" type="Hash_Table" locRef="12" ln="91" />
+  <Metric id="METRIC.NBD" itemId="src/hash-table.cc#Hash_Table::equal(KeywordExt *, KeywordExt *) const" item="Hash_Table::equal(KeywordExt *, KeywordExt *) const" val="0.0" module="src" type="Hash_Table" locRef="12" ln="127" />
+  <Metric id="METRIC.NBD" itemId="src/hash-table.cc#Hash_Table::insert(KeywordExt *)" item="Hash_Table::insert(KeywordExt *)" val="1.0" module="src" type="Hash_Table" locRef="12" ln="140" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::Search(KeywordExt_List *)" item="Search::Search(KeywordExt_List *)" val="0.0" module="src" type="Search" locRef="13" ln="124" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::prepare()" item="Search::prepare()" val="2.0" module="src" type="Search" locRef="13" ln="130" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::compute_alpha_size() const" item="Search::compute_alpha_size() const" val="0.0" module="src" type="Search" locRef="13" ln="188" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::compute_alpha_unify() const" item="Search::compute_alpha_unify() const" val="1.0" module="src" type="Search" locRef="13" ln="196" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::init_selchars_tuple(const Positions &amp;, const unsigned int *) const" item="Search::init_selchars_tuple(const Positions &amp;, const unsigned int *) const" val="0.0" module="src" type="Search" locRef="13" ln="216" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::delete_selchars() const" item="Search::delete_selchars() const" val="0.0" module="src" type="Search" locRef="13" ln="224" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::count_duplicates_tuple(const Positions &amp;, const unsigned int *) const" item="Search::count_duplicates_tuple(const Positions &amp;, const unsigned int *) const" val="2.0" module="src" type="Search" locRef="13" ln="235" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::find_positions()" item="Search::find_positions()" val="7.0" module="src" type="Search" locRef="13" ln="261" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::count_duplicates_tuple() const" item="Search::count_duplicates_tuple() const" val="0.0" module="src" type="Search" locRef="13" ln="488" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::compute_alpha_size(const unsigned int *) const" item="Search::compute_alpha_size(const unsigned int *) const" val="0.0" module="src" type="Search" locRef="13" ln="500" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::compute_alpha_unify(const Positions &amp;, const unsigned int *) const" item="Search::compute_alpha_unify(const Positions &amp;, const unsigned int *) const" val="4.0" module="src" type="Search" locRef="13" ln="511" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *) const" item="Search::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *) const" val="0.0" module="src" type="Search" locRef="13" ln="574" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::count_duplicates_multiset(const unsigned int *) const" item="Search::count_duplicates_multiset(const unsigned int *) const" val="2.0" module="src" type="Search" locRef="13" ln="586" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::find_alpha_inc()" item="Search::find_alpha_inc()" val="5.0" module="src" type="Search" locRef="13" ln="614" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::prepare_asso_values()" item="Search::prepare_asso_values()" val="4.0" module="src" type="Search" locRef="13" ln="731" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#equals(const unsigned int *, const unsigned int *, unsigned int)" item="equals(const unsigned int *, const unsigned int *, unsigned int)" val="1.0" module="src" locRef="13" ln="964" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::compute_partition(bool *) const" item="Search::compute_partition(bool *) const" val="2.0" module="src" type="Search" locRef="13" ln="978" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#delete_partition(EquivalenceClass *)" item="delete_partition(EquivalenceClass *)" val="1.0" module="src" locRef="13" ln="1038" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::count_possible_collisions(EquivalenceClass *, unsigned int) const" item="Search::count_possible_collisions(EquivalenceClass *, unsigned int) const" val="2.0" module="src" type="Search" locRef="13" ln="1053" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::unchanged_partition(EquivalenceClass *, unsigned int) const" item="Search::unchanged_partition(EquivalenceClass *, unsigned int) const" val="2.0" module="src" type="Search" locRef="13" ln="1090" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::find_asso_values()" item="Search::find_asso_values()" val="6.0" module="src" type="Search" locRef="13" ln="1116" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::compute_hash(KeywordExt *) const" item="Search::compute_hash(KeywordExt *) const" val="0.0" module="src" type="Search" locRef="13" ln="1474" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::find_good_asso_values()" item="Search::find_good_asso_values()" val="3.0" module="src" type="Search" locRef="13" ln="1489" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#less_by_hash_value(KeywordExt *, KeywordExt *)" item="less_by_hash_value(KeywordExt *, KeywordExt *)" val="0.0" module="src" locRef="13" ln="1571" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::sort()" item="Search::sort()" val="0.0" module="src" type="Search" locRef="13" ln="1579" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::optimize()" item="Search::optimize()" val="2.0" module="src" type="Search" locRef="13" ln="1585" />
+  <Metric id="METRIC.NBD" itemId="src/search.cc#Search::~Search()" item="Search::~Search()" val="2.0" module="src" type="Search" locRef="13" ln="1646" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#smallest_integral_type(int)" item="smallest_integral_type(int)" val="0.0" module="src" locRef="14" ln="45" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#smallest_integral_type(int, int)" item="smallest_integral_type(int, int)" val="0.0" module="src" locRef="14" ln="56" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::Output(KeywordExt_List *, const char *, unsigned int, const char *, const char *, const char *, const char *, unsigned int, const char *, const char *, unsigned int, bool, int, int, int, bool, const Positions &amp;, const unsigned int *, int, unsigned int, const int *)" item="Output::Output(KeywordExt_List *, const char *, unsigned int, const char *, const char *, const char *, const char *, unsigned int, const char *, const char *, unsigned int, bool, int, int, int, bool, const Positions &amp;, const unsigned int *, int, unsigned int, const int *)" val="0.0" module="src" type="Output" locRef="14" ln="77" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::compute_min_max()" item="Output::compute_min_max()" val="0.0" module="src" type="Output" locRef="14" ln="113" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::num_hash_values() const" item="Output::num_hash_values() const" val="0.0" module="src" type="Output" locRef="14" ln="131" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Constants::Output_Constants()" item="Output_Constants::Output_Constants()" val="0.0" module="src" type="Output_Constants" locRef="14" ln="150" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Constants::~Output_Constants()" item="Output_Constants::~Output_Constants()" val="0.0" module="src" type="Output_Constants" locRef="14" ln="151" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Defines::output_start()" item="Output_Defines::output_start()" val="0.0" module="src" type="Output_Defines" locRef="14" ln="165" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Defines::output_item(const char *, int)" item="Output_Defines::output_item(const char *, int)" val="0.0" module="src" type="Output_Defines" locRef="14" ln="170" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Defines::output_end()" item="Output_Defines::output_end()" val="0.0" module="src" type="Output_Defines" locRef="14" ln="175" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Defines::Output_Defines()" item="Output_Defines::Output_Defines()" val="0.0" module="src" type="Output_Defines" locRef="14" ln="161" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Defines::~Output_Defines()" item="Output_Defines::~Output_Defines()" val="0.0" module="src" type="Output_Defines" locRef="14" ln="162" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Enum::output_start()" item="Output_Enum::output_start()" val="0.0" module="src" type="Output_Enum" locRef="14" ln="194" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Enum::output_item(const char *, int)" item="Output_Enum::output_item(const char *, int)" val="0.0" module="src" type="Output_Enum" locRef="14" ln="202" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Enum::output_end()" item="Output_Enum::output_end()" val="0.0" module="src" type="Output_Enum" locRef="14" ln="210" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Enum::Output_Enum(const char *)" item="Output_Enum::Output_Enum(const char *)" val="0.0" module="src" type="Output_Enum" locRef="14" ln="186" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Enum::~Output_Enum()" item="Output_Enum::~Output_Enum()" val="0.0" module="src" type="Output_Enum" locRef="14" ln="188" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output_constants(Output_Constants &amp;) const" item="Output::output_constants(Output_Constants &amp;) const" val="0.0" module="src" type="Output" locRef="14" ln="220" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#output_upperlower_table()" item="output_upperlower_table()" val="1.0" module="src" locRef="14" ln="246" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#output_upperlower_strcmp()" item="output_upperlower_strcmp()" val="0.0" module="src" locRef="14" ln="272" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#output_upperlower_strncmp()" item="output_upperlower_strncmp()" val="0.0" module="src" locRef="14" ln="322" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#output_upperlower_memcmp()" item="output_upperlower_memcmp()" val="0.0" module="src" locRef="14" ln="382" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#output_string(const char *, int)" item="output_string(const char *, int)" val="2.0" module="src" locRef="14" ln="445" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#output_line_directive(unsigned int)" item="output_line_directive(unsigned int)" val="1.0" module="src" locRef="14" ln="477" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#output_const_type(const char *, const char *)" item="output_const_type(const char *, const char *)" val="0.0" module="src" locRef="14" ln="494" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Expr::Output_Expr()" item="Output_Expr::Output_Expr()" val="0.0" module="src" type="Output_Expr" locRef="14" ln="511" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Expr::~Output_Expr()" item="Output_Expr::~Output_Expr()" val="0.0" module="src" type="Output_Expr" locRef="14" ln="512" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Expr1::output_expr() const" item="Output_Expr1::output_expr() const" val="0.0" module="src" type="Output_Expr1" locRef="14" ln="526" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Expr1::Output_Expr1(const char *)" item="Output_Expr1::Output_Expr1(const char *)" val="0.0" module="src" type="Output_Expr1" locRef="14" ln="520" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Expr1::~Output_Expr1()" item="Output_Expr1::~Output_Expr1()" val="0.0" module="src" type="Output_Expr1" locRef="14" ln="521" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare::output_firstchar_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare::output_firstchar_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="1.0" module="src" type="Output_Compare" locRef="14" ln="575" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare::Output_Compare()" item="Output_Compare::Output_Compare()" val="0.0" module="src" type="Output_Compare" locRef="14" ln="571" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare::~Output_Compare()" item="Output_Compare::~Output_Compare()" val="0.0" module="src" type="Output_Compare" locRef="14" ln="572" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare_Strcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare_Strcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="1.0" module="src" type="Output_Compare_Strcmp" locRef="14" ln="613" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare_Strcmp::Output_Compare_Strcmp()" item="Output_Compare_Strcmp::Output_Compare_Strcmp()" val="0.0" module="src" type="Output_Compare_Strcmp" locRef="14" ln="609" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare_Strcmp::~Output_Compare_Strcmp()" item="Output_Compare_Strcmp::~Output_Compare_Strcmp()" val="0.0" module="src" type="Output_Compare_Strcmp" locRef="14" ln="610" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare_Strncmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare_Strncmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="1.0" module="src" type="Output_Compare_Strncmp" locRef="14" ln="649" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare_Strncmp::Output_Compare_Strncmp()" item="Output_Compare_Strncmp::Output_Compare_Strncmp()" val="0.0" module="src" type="Output_Compare_Strncmp" locRef="14" ln="645" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare_Strncmp::~Output_Compare_Strncmp()" item="Output_Compare_Strncmp::~Output_Compare_Strncmp()" val="0.0" module="src" type="Output_Compare_Strncmp" locRef="14" ln="646" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare_Memcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare_Memcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="1.0" module="src" type="Output_Compare_Memcmp" locRef="14" ln="689" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare_Memcmp::Output_Compare_Memcmp()" item="Output_Compare_Memcmp::Output_Compare_Memcmp()" val="0.0" module="src" type="Output_Compare_Memcmp" locRef="14" ln="685" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output_Compare_Memcmp::~Output_Compare_Memcmp()" item="Output_Compare_Memcmp::~Output_Compare_Memcmp()" val="0.0" module="src" type="Output_Compare_Memcmp" locRef="14" ln="686" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output_asso_values_ref(int) const" item="Output::output_asso_values_ref(int) const" val="1.0" module="src" type="Output" locRef="14" ln="719" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output_hash_function() const" item="Output::output_hash_function() const" val="4.0" module="src" type="Output" locRef="14" ln="742" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output_keylength_table() const" item="Output::output_keylength_table() const" val="3.0" module="src" type="Output" locRef="14" ln="929" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output_string_pool() const" item="Output::output_string_pool() const" val="2.0" module="src" type="Output" locRef="14" ln="1000" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#output_keyword_entry(KeywordExt *, int, const char *)" item="output_keyword_entry(KeywordExt *, int, const char *)" val="1.0" module="src" locRef="14" ln="1100" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#output_keyword_blank_entries(int, const char *)" item="output_keyword_blank_entries(int, const char *)" val="2.0" module="src" locRef="14" ln="1125" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output_keyword_table() const" item="Output::output_keyword_table() const" val="2.0" module="src" type="Output" locRef="14" ln="1173" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output_lookup_array() const" item="Output::output_lookup_array() const" val="4.0" module="src" type="Output" locRef="14" ln="1243" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output_lookup_pools() const" item="Output::output_lookup_pools() const" val="1.0" module="src" type="Output" locRef="14" ln="1392" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output_lookup_tables() const" item="Output::output_lookup_tables() const" val="1.0" module="src" type="Output" locRef="14" ln="1408" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#output_switch_case(KeywordExt_List *, int, int *)" item="output_switch_case(KeywordExt_List *, int, int *)" val="2.0" module="src" locRef="14" ln="1433" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#output_switches(KeywordExt_List *, int, int, int, int, int)" item="output_switches(KeywordExt_List *, int, int, int, int, int)" val="3.0" module="src" locRef="14" ln="1493" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output_lookup_function_body(const Output_Compare &amp;) const" item="Output::output_lookup_function_body(const Output_Compare &amp;) const" val="4.0" module="src" type="Output" locRef="14" ln="1576" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output_lookup_function() const" item="Output::output_lookup_function() const" val="1.0" module="src" type="Output" locRef="14" ln="1882" />
+  <Metric id="METRIC.NBD" itemId="src/output.cc#Output::output()" item="Output::output()" val="2.0" module="src" type="Output" locRef="14" ln="1952" />
+  <Metric id="METRIC.NBD" itemId="src/main.cc#KeywordExt_Factory::create_keyword(const char *, int, const char *)" item="KeywordExt_Factory::create_keyword(const char *, int, const char *)" val="0.0" module="src" type="KeywordExt_Factory" locRef="15" ln="41" />
+  <Metric id="METRIC.NBD" itemId="src/main.cc#main" item="main" val="4.0" module="src" locRef="15" ln="49" />
+  <Metric id="METRIC.NOPLIF" itemId="src/output.cc" item="output.cc" val="2105.0" module="src" locRef="14" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="src/version.cc" item="version.cc" val="26.0" module="src" locRef="5" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="src/hash-table.cc" item="hash-table.cc" val="165.0" module="src" locRef="12" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="lib/getline.cc" item="getline.cc" val="117.0" module="lib" locRef="3" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="src/bool-array.cc" item="bool-array.cc" val="45.0" module="src" locRef="11" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="lib/hash.cc" item="hash.cc" val="27.0" module="lib" locRef="4" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="src/keyword-list.cc" item="keyword-list.cc" val="173.0" module="src" locRef="9" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="src/positions.cc" item="positions.cc" val="175.0" module="src" locRef="6" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="src/keyword.cc" item="keyword.cc" val="159.0" module="src" locRef="8" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="src/options.cc" item="options.cc" val="1072.0" module="src" locRef="7" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="src/main.cc" item="main.cc" val="154.0" module="src" locRef="15" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="src/search.cc" item="search.cc" val="1685.0" module="src" locRef="13" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="lib/getopt.c" item="getopt.c" val="1040.0" module="lib" locRef="1" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="lib/getopt1.c" item="getopt1.c" val="186.0" module="lib" locRef="2" ln="1" />
+  <Metric id="METRIC.NOPLIF" itemId="src/input.cc" item="input.cc" val="1003.0" module="src" locRef="10" ln="1" />
+  <Metric id="METRIC.NOSLIM" itemId="lib/getopt.c#_getopt_initialize" item="_getopt_initialize" val="55.0" module="lib" locRef="1" ln="381" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Enum::output_item(const char *, int)" item="Output_Enum::output_item(const char *, int)" val="8.0" module="src" type="Output_Enum" locRef="14" ln="202" />
+  <Metric id="METRIC.NOSLIM" itemId="lib/getopt.c#getopt" item="getopt" val="11.0" module="lib" locRef="1" ln="957" />
+  <Metric id="METRIC.NOSLIM" itemId="lib/getopt1.c#getopt_long" item="getopt_long" val="10.0" module="lib" locRef="2" ln="65" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output_keyword_table() const" item="Output::output_keyword_table() const" val="47.0" module="src" type="Output" locRef="14" ln="1173" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword-list.cc#copy_list(Keyword_List *)" item="copy_list(Keyword_List *)" val="15.0" module="src" locRef="9" ln="46" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::set_language(const char *)" item="Options::set_language(const char *)" val="23.0" module="src" type="Options" locRef="7" ln="561" />
+  <Metric id="METRIC.NOSLIM" itemId="src/hash-table.cc#Hash_Table::equal(KeywordExt *, KeywordExt *) const" item="Hash_Table::equal(KeywordExt *, KeywordExt *) const" val="10.0" module="src" type="Hash_Table" locRef="12" ln="127" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output_asso_values_ref(int) const" item="Output::output_asso_values_ref(int) const" val="15.0" module="src" type="Output" locRef="14" ln="719" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::print_options() const" item="Options::print_options() const" val="62.0" module="src" type="Options" locRef="7" ln="269" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare_Memcmp::~Output_Compare_Memcmp()" item="Output_Compare_Memcmp::~Output_Compare_Memcmp()" val="1.0" module="src" type="Output_Compare_Memcmp" locRef="14" ln="686" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword.cc#Keyword_Factory::Keyword_Factory()" item="Keyword_Factory::Keyword_Factory()" val="3.0" module="src" type="Keyword_Factory" locRef="8" ln="139" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::set_class_name(const char *)" item="Options::set_class_name(const char *)" val="6.0" module="src" type="Options" locRef="7" ln="621" />
+  <Metric id="METRIC.NOSLIM" itemId="lib/getline.cc#get_line(char **, unsigned int *, __sFILE64 *)" item="get_line(char **, unsigned int *, __sFILE64 *)" val="5.0" module="lib" locRef="3" ln="108" />
+  <Metric id="METRIC.NOSLIM" itemId="src/input.cc#is_declaration_with_arg(const char *, const char *, unsigned int, const char *, char **)" item="is_declaration_with_arg(const char *, const char *, unsigned int, const char *, char **)" val="42.0" module="src" locRef="10" ln="91" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Defines::output_end()" item="Output_Defines::output_end()" val="4.0" module="src" type="Output_Defines" locRef="14" ln="175" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::prepare()" item="Search::prepare()" val="40.0" module="src" type="Search" locRef="13" ln="130" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output_constants(Output_Constants &amp;) const" item="Output::output_constants(Output_Constants &amp;) const" val="11.0" module="src" type="Output" locRef="14" ln="220" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#less_by_hash_value(KeywordExt *, KeywordExt *)" item="less_by_hash_value(KeywordExt *, KeywordExt *)" val="5.0" module="src" locRef="13" ln="1571" />
+  <Metric id="METRIC.NOSLIM" itemId="lib/getopt.c#exchange" item="exchange" val="57.0" module="lib" locRef="1" ln="296" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::compute_alpha_unify(const Positions &amp;, const unsigned int *) const" item="Search::compute_alpha_unify(const Positions &amp;, const unsigned int *) const" val="40.0" module="src" type="Search" locRef="13" ln="511" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::set_stringpool_name(const char *)" item="Options::set_stringpool_name(const char *)" val="6.0" module="src" type="Options" locRef="7" ln="653" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::compute_alpha_size() const" item="Search::compute_alpha_size() const" val="5.0" module="src" type="Search" locRef="13" ln="188" />
+  <Metric id="METRIC.NOSLIM" itemId="lib/getline.cc#get_delim(char **, unsigned int *, int, __sFILE64 *)" item="get_delim(char **, unsigned int *, int, __sFILE64 *)" val="5.0" module="lib" locRef="3" ln="114" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#PositionStringParser::nextPosition()" item="PositionStringParser::nextPosition()" val="49.0" module="src" type="PositionStringParser" locRef="7" ln="384" />
+  <Metric id="METRIC.NOSLIM" itemId="src/input.cc#is_declaration(const char *, const char *, unsigned int, const char *)" item="is_declaration(const char *, const char *, unsigned int, const char *)" val="28.0" module="src" locRef="10" ln="49" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output_hash_function() const" item="Output::output_hash_function() const" val="140.0" module="src" type="Output" locRef="14" ln="742" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::set_delimiters(const char *)" item="Options::set_delimiters(const char *)" val="6.0" module="src" type="Options" locRef="7" ln="661" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare::output_firstchar_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare::output_firstchar_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="23.0" module="src" type="Output_Compare" locRef="14" ln="575" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#equals(const unsigned int *, const unsigned int *, unsigned int)" item="equals(const unsigned int *, const unsigned int *, unsigned int)" val="13.0" module="src" locRef="13" ln="964" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare_Strncmp::~Output_Compare_Strncmp()" item="Output_Compare_Strncmp::~Output_Compare_Strncmp()" val="1.0" module="src" type="Output_Compare_Strncmp" locRef="14" ln="646" />
+  <Metric id="METRIC.NOSLIM" itemId="src/main.cc#KeywordExt_Factory::create_keyword(const char *, int, const char *)" item="KeywordExt_Factory::create_keyword(const char *, int, const char *)" val="7.0" module="src" type="KeywordExt_Factory" locRef="15" ln="41" />
+  <Metric id="METRIC.NOSLIM" itemId="lib/getopt.c#_getopt_internal" item="_getopt_internal" val="339.0" module="lib" locRef="1" ln="503" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::long_usage(__sFILE64 *)" item="Options::long_usage(__sFILE64 *)" val="188.0" module="src" type="Options" locRef="7" ln="78" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::Output(KeywordExt_List *, const char *, unsigned int, const char *, const char *, const char *, const char *, unsigned int, const char *, const char *, unsigned int, bool, int, int, int, bool, const Positions &amp;, const unsigned int *, int, unsigned int, const int *)" item="Output::Output(KeywordExt_List *, const char *, unsigned int, const char *, const char *, const char *, const char *, unsigned int, const char *, const char *, unsigned int, bool, int, int, int, bool, const Positions &amp;, const unsigned int *, int, unsigned int, const int *)" val="29.0" module="src" type="Output" locRef="14" ln="77" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword-list.cc#KeywordExt_List::KeywordExt_List(KeywordExt *)" item="KeywordExt_List::KeywordExt_List(KeywordExt *)" val="4.0" module="src" type="KeywordExt_List" locRef="9" ln="37" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Defines::output_item(const char *, int)" item="Output_Defines::output_item(const char *, int)" val="5.0" module="src" type="Output_Defines" locRef="14" ln="170" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword.cc#KeywordExt::init_selchars_low(const Positions &amp;, const unsigned int *, const unsigned int *)" item="KeywordExt::init_selchars_low(const Positions &amp;, const unsigned int *, const unsigned int *)" val="28.0" module="src" type="KeywordExt" locRef="8" ln="75" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Enum::~Output_Enum()" item="Output_Enum::~Output_Enum()" val="1.0" module="src" type="Output_Enum" locRef="14" ln="188" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::count_duplicates_tuple(const Positions &amp;, const unsigned int *) const" item="Search::count_duplicates_tuple(const Positions &amp;, const unsigned int *) const" val="17.0" module="src" type="Search" locRef="13" ln="235" />
+  <Metric id="METRIC.NOSLIM" itemId="lib/getopt.c#my_index" item="my_index" val="13.0" module="lib" locRef="1" ln="206" />
+  <Metric id="METRIC.NOSLIM" itemId="src/positions.cc#Positions::add(int)" item="Positions::add(int)" val="25.0" module="src" type="Positions" locRef="6" ln="49" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::~Search()" item="Search::~Search()" val="35.0" module="src" type="Search" locRef="13" ln="1646" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::set_slot_name(const char *)" item="Options::set_slot_name(const char *)" val="6.0" module="src" type="Options" locRef="7" ln="605" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::count_duplicates_tuple() const" item="Search::count_duplicates_tuple() const" val="8.0" module="src" type="Search" locRef="13" ln="488" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#smallest_integral_type(int)" item="smallest_integral_type(int)" val="7.0" module="src" locRef="14" ln="45" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::delete_selchars() const" item="Search::delete_selchars() const" val="6.0" module="src" type="Search" locRef="13" ln="224" />
+  <Metric id="METRIC.NOSLIM" itemId="src/hash-table.cc#Hash_Table::dump() const" item="Hash_Table::dump() const" val="30.0" module="src" type="Hash_Table" locRef="12" ln="91" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare_Memcmp::Output_Compare_Memcmp()" item="Output_Compare_Memcmp::Output_Compare_Memcmp()" val="1.0" module="src" type="Output_Compare_Memcmp" locRef="14" ln="685" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#smallest_integral_type(int, int)" item="smallest_integral_type(int, int)" val="8.0" module="src" locRef="14" ln="56" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Enum::Output_Enum(const char *)" item="Output_Enum::Output_Enum(const char *)" val="2.0" module="src" type="Output_Enum" locRef="14" ln="186" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::set_hash_name(const char *)" item="Options::set_hash_name(const char *)" val="6.0" module="src" type="Options" locRef="7" ln="629" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::compute_partition(bool *) const" item="Search::compute_partition(bool *) const" val="49.0" module="src" type="Search" locRef="13" ln="978" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#output_switch_case(KeywordExt_List *, int, int *)" item="output_switch_case(KeywordExt_List *, int, int *)" val="52.0" module="src" locRef="14" ln="1433" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare_Strcmp::~Output_Compare_Strcmp()" item="Output_Compare_Strcmp::~Output_Compare_Strcmp()" val="1.0" module="src" type="Output_Compare_Strcmp" locRef="14" ln="610" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::optimize()" item="Search::optimize()" val="39.0" module="src" type="Search" locRef="13" ln="1585" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword-list.cc#delete_list(Keyword_List *)" item="delete_list(Keyword_List *)" val="10.0" module="src" locRef="9" ln="70" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *) const" item="Search::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *) const" val="6.0" module="src" type="Search" locRef="13" ln="574" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#output_upperlower_strncmp()" item="output_upperlower_strncmp()" val="57.0" module="src" locRef="14" ln="322" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::count_duplicates_multiset(const unsigned int *) const" item="Search::count_duplicates_multiset(const unsigned int *) const" val="19.0" module="src" type="Search" locRef="13" ln="586" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword.cc#KeywordExt::delete_selchars()" item="KeywordExt::delete_selchars()" val="5.0" module="src" type="KeywordExt" locRef="8" ln="131" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Enum::output_start()" item="Output_Enum::output_start()" val="8.0" module="src" type="Output_Enum" locRef="14" ln="194" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare_Strncmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare_Strncmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="28.0" module="src" type="Output_Compare_Strncmp" locRef="14" ln="649" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::num_hash_values() const" item="Output::num_hash_values() const" val="8.0" module="src" type="Output" locRef="14" ln="131" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::~Options()" item="Options::~Options()" val="80.0" module="src" type="Options" locRef="7" ln="475" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::compute_alpha_size(const unsigned int *) const" item="Search::compute_alpha_size(const unsigned int *) const" val="9.0" module="src" type="Search" locRef="13" ln="500" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Expr1::~Output_Expr1()" item="Output_Expr1::~Output_Expr1()" val="1.0" module="src" type="Output_Expr1" locRef="14" ln="521" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword.cc#KeywordExt::init_selchars_tuple(const Positions &amp;, const unsigned int *)" item="KeywordExt::init_selchars_tuple(const Positions &amp;, const unsigned int *)" val="5.0" module="src" type="KeywordExt" locRef="8" ln="114" />
+  <Metric id="METRIC.NOSLIM" itemId="src/hash-table.cc#Hash_Table::~Hash_Table()" item="Hash_Table::~Hash_Table()" val="4.0" module="src" type="Hash_Table" locRef="12" ln="84" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Defines::output_start()" item="Output_Defines::output_start()" val="5.0" module="src" type="Output_Defines" locRef="14" ln="165" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::unchanged_partition(EquivalenceClass *, unsigned int) const" item="Search::unchanged_partition(EquivalenceClass *, unsigned int) const" val="21.0" module="src" type="Search" locRef="13" ln="1090" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare::~Output_Compare()" item="Output_Compare::~Output_Compare()" val="1.0" module="src" type="Output_Compare" locRef="14" ln="572" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::compute_hash(KeywordExt *) const" item="Search::compute_hash(KeywordExt *) const" val="10.0" module="src" type="Search" locRef="13" ln="1474" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output_string_pool() const" item="Output::output_string_pool() const" val="76.0" module="src" type="Output" locRef="14" ln="1000" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#output_switches(KeywordExt_List *, int, int, int, int, int)" item="output_switches(KeywordExt_List *, int, int, int, int, int)" val="72.0" module="src" locRef="14" ln="1493" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::find_asso_values()" item="Search::find_asso_values()" val="263.0" module="src" type="Search" locRef="13" ln="1116" />
+  <Metric id="METRIC.NOSLIM" itemId="lib/hash.cc#hashpjw(const unsigned char *, unsigned int)" item="hashpjw(const unsigned char *, unsigned int)" val="13.0" module="lib" locRef="4" ln="15" />
+  <Metric id="METRIC.NOSLIM" itemId="src/hash-table.cc#Hash_Table::insert(KeywordExt *)" item="Hash_Table::insert(KeywordExt *)" val="21.0" module="src" type="Hash_Table" locRef="12" ln="140" />
+  <Metric id="METRIC.NOSLIM" itemId="src/input.cc#Input::~Input()" item="Input::~Input()" val="7.0" module="src" type="Input" locRef="10" ln="996" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare_Strcmp::Output_Compare_Strcmp()" item="Output_Compare_Strcmp::Output_Compare_Strcmp()" val="1.0" module="src" type="Output_Compare_Strcmp" locRef="14" ln="609" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#output_line_directive(unsigned int)" item="output_line_directive(unsigned int)" val="11.0" module="src" locRef="14" ln="477" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output_lookup_pools() const" item="Output::output_lookup_pools() const" val="13.0" module="src" type="Output" locRef="14" ln="1392" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare::Output_Compare()" item="Output_Compare::Output_Compare()" val="1.0" module="src" type="Output_Compare" locRef="14" ln="571" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::sort()" item="Search::sort()" val="5.0" module="src" type="Search" locRef="13" ln="1579" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Expr1::output_expr() const" item="Output_Expr1::output_expr() const" val="5.0" module="src" type="Output_Expr1" locRef="14" ln="526" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::set_initializer_suffix(const char *)" item="Options::set_initializer_suffix(const char *)" val="6.0" module="src" type="Options" locRef="7" ln="613" />
+  <Metric id="METRIC.NOSLIM" itemId="src/input.cc#Input::Input(__sFILE64 *, Keyword_Factory *)" item="Input::Input(__sFILE64 *, Keyword_Factory *)" val="4.0" module="src" type="Input" locRef="10" ln="31" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare_Strncmp::Output_Compare_Strncmp()" item="Output_Compare_Strncmp::Output_Compare_Strncmp()" val="1.0" module="src" type="Output_Compare_Strncmp" locRef="14" ln="645" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword-list.cc#mergesort_list(Keyword_List *, bool (*)(Keyword *, Keyword *))" item="mergesort_list(Keyword_List *, bool (*)(Keyword *, Keyword *))" val="25.0" module="src" locRef="9" ln="123" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#delete_partition(EquivalenceClass *)" item="delete_partition(EquivalenceClass *)" val="11.0" module="src" locRef="13" ln="1038" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword.cc#sort_char_set(unsigned int *, int)" item="sort_char_set(unsigned int *, int)" val="11.0" module="src" locRef="8" ln="33" />
+  <Metric id="METRIC.NOSLIM" itemId="src/hash-table.cc#Hash_Table::Hash_Table(unsigned int, bool)" item="Hash_Table::Hash_Table(unsigned int, bool)" val="36.0" module="src" type="Hash_Table" locRef="12" ln="41" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::set_lengthtable_name(const char *)" item="Options::set_lengthtable_name(const char *)" val="6.0" module="src" type="Options" locRef="7" ln="645" />
+  <Metric id="METRIC.NOSLIM" itemId="src/input.cc#is_define_declaration(const char *, const char *, unsigned int, const char *, char **)" item="is_define_declaration(const char *, const char *, unsigned int, const char *, char **)" val="59.0" module="src" locRef="10" ln="151" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::find_good_asso_values()" item="Search::find_good_asso_values()" val="57.0" module="src" type="Search" locRef="13" ln="1489" />
+  <Metric id="METRIC.NOSLIM" itemId="lib/getline.cc#getstr(char **, unsigned int *, __sFILE64 *, char, unsigned int)" item="getstr(char **, unsigned int *, __sFILE64 *, char, unsigned int)" val="50.0" module="lib" locRef="3" ln="39" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output_lookup_tables() const" item="Output::output_lookup_tables() const" val="18.0" module="src" type="Output" locRef="14" ln="1408" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword-list.cc#Keyword_List::Keyword_List(Keyword *)" item="Keyword_List::Keyword_List(Keyword *)" val="4.0" module="src" type="Keyword_List" locRef="9" ln="29" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output()" item="Output::output()" val="135.0" module="src" type="Output" locRef="14" ln="1952" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::set_total_switches(int)" item="Options::set_total_switches(int)" val="9.0" module="src" type="Options" locRef="7" ln="586" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Constants::~Output_Constants()" item="Output_Constants::~Output_Constants()" val="1.0" module="src" type="Output_Constants" locRef="14" ln="151" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare_Strcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare_Strcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="25.0" module="src" type="Output_Compare_Strcmp" locRef="14" ln="613" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword.cc#KeywordExt::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *)" item="KeywordExt::init_selchars_multiset(const Positions &amp;, const unsigned int *, const unsigned int *)" val="7.0" module="src" type="KeywordExt" locRef="8" ln="120" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#output_upperlower_memcmp()" item="output_upperlower_memcmp()" val="57.0" module="src" locRef="14" ln="382" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword-list.cc#merge(Keyword_List *, Keyword_List *, bool (*)(Keyword *, Keyword *))" item="merge(Keyword_List *, Keyword_List *, bool (*)(Keyword *, Keyword *))" val="32.0" module="src" locRef="9" ln="85" />
+  <Metric id="METRIC.NOSLIM" itemId="src/positions.cc#Positions::contains(int) const" item="Positions::contains(int) const" val="14.0" module="src" type="Positions" locRef="6" ln="33" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output_lookup_array() const" item="Output::output_lookup_array() const" val="115.0" module="src" type="Output" locRef="14" ln="1243" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#output_upperlower_table()" item="output_upperlower_table()" val="20.0" module="src" locRef="14" ln="246" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#output_keyword_entry(KeywordExt *, int, const char *)" item="output_keyword_entry(KeywordExt *, int, const char *)" val="24.0" module="src" locRef="14" ln="1100" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword-list.cc#mergesort_list(KeywordExt_List *, bool (*)(KeywordExt *, KeywordExt *))" item="mergesort_list(KeywordExt_List *, bool (*)(KeywordExt *, KeywordExt *))" val="9.0" module="src" locRef="9" ln="157" />
+  <Metric id="METRIC.NOSLIM" itemId="src/positions.cc#Positions::remove(int)" item="Positions::remove(int)" val="39.0" module="src" type="Positions" locRef="6" ln="79" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#PositionStringParser::PositionStringParser(const char *, int, int, int, int, int)" item="PositionStringParser::PositionStringParser(const char *, int, int, int, int, int)" val="15.0" module="src" type="PositionStringParser" locRef="7" ln="369" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Expr::Output_Expr()" item="Output_Expr::Output_Expr()" val="1.0" module="src" type="Output_Expr" locRef="14" ln="511" />
+  <Metric id="METRIC.NOSLIM" itemId="lib/getopt1.c#getopt_long_only" item="getopt_long_only" val="10.0" module="lib" locRef="2" ln="81" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output_keylength_table() const" item="Output::output_keylength_table() const" val="51.0" module="src" type="Output" locRef="14" ln="929" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Constants::Output_Constants()" item="Output_Constants::Output_Constants()" val="1.0" module="src" type="Output_Constants" locRef="14" ln="150" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Expr1::Output_Expr1(const char *)" item="Output_Expr1::Output_Expr1(const char *)" val="1.0" module="src" type="Output_Expr1" locRef="14" ln="520" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Expr::~Output_Expr()" item="Output_Expr::~Output_Expr()" val="1.0" module="src" type="Output_Expr" locRef="14" ln="512" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword-list.cc#copy_list(KeywordExt_List *)" item="copy_list(KeywordExt_List *)" val="5.0" module="src" locRef="9" ln="63" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Defines::~Output_Defines()" item="Output_Defines::~Output_Defines()" val="1.0" module="src" type="Output_Defines" locRef="14" ln="162" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::Search(KeywordExt_List *)" item="Search::Search(KeywordExt_List *)" val="4.0" module="src" type="Search" locRef="13" ln="124" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Enum::output_end()" item="Output_Enum::output_end()" val="7.0" module="src" type="Output_Enum" locRef="14" ln="210" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#output_upperlower_strcmp()" item="output_upperlower_strcmp()" val="47.0" module="src" locRef="14" ln="272" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#output_const_type(const char *, const char *)" item="output_const_type(const char *, const char *)" val="8.0" module="src" locRef="14" ln="494" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::find_positions()" item="Search::find_positions()" val="173.0" module="src" type="Search" locRef="13" ln="261" />
+  <Metric id="METRIC.NOSLIM" itemId="src/keyword.cc#Keyword_Factory::~Keyword_Factory()" item="Keyword_Factory::~Keyword_Factory()" val="3.0" module="src" type="Keyword_Factory" locRef="8" ln="143" />
+  <Metric id="METRIC.NOSLIM" itemId="src/positions.cc#Positions::print() const" item="Positions::print() const" val="43.0" module="src" type="Positions" locRef="6" ln="123" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output_lookup_function_body(const Output_Compare &amp;) const" item="Output::output_lookup_function_body(const Output_Compare &amp;) const" val="293.0" module="src" type="Output" locRef="14" ln="1576" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::set_function_name(const char *)" item="Options::set_function_name(const char *)" val="6.0" module="src" type="Options" locRef="7" ln="597" />
+  <Metric id="METRIC.NOSLIM" itemId="src/input.cc#pretty_input_file_name()" item="pretty_input_file_name()" val="8.0" module="src" locRef="10" ln="39" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::init_selchars_tuple(const Positions &amp;, const unsigned int *) const" item="Search::init_selchars_tuple(const Positions &amp;, const unsigned int *) const" val="6.0" module="src" type="Search" locRef="13" ln="216" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::output_lookup_function() const" item="Output::output_lookup_function() const" val="47.0" module="src" type="Output" locRef="14" ln="1882" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::prepare_asso_values()" item="Search::prepare_asso_values()" val="124.0" module="src" type="Search" locRef="13" ln="731" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::Options()" item="Options::Options()" val="22.0" module="src" type="Options" locRef="7" ln="450" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output::compute_min_max()" item="Output::compute_min_max()" val="9.0" module="src" type="Output" locRef="14" ln="113" />
+  <Metric id="METRIC.NOSLIM" itemId="src/bool-array.cc#Bool_Array::~Bool_Array()" item="Bool_Array::~Bool_Array()" val="8.0" module="src" type="Bool_Array" locRef="11" ln="29" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#output_string(const char *, int)" item="output_string(const char *, int)" val="23.0" module="src" locRef="14" ln="445" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Compare_Memcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" item="Output_Compare_Memcmp::output_comparison(const Output_Expr &amp;, const Output_Expr &amp;) const" val="26.0" module="src" type="Output_Compare_Memcmp" locRef="14" ln="689" />
+  <Metric id="METRIC.NOSLIM" itemId="src/main.cc#main" item="main" val="81.0" module="src" locRef="15" ln="49" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#output_keyword_blank_entries(int, const char *)" item="output_keyword_blank_entries(int, const char *)" val="45.0" module="src" locRef="14" ln="1125" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::parse_options(int, char **)" item="Options::parse_options(int, char **)" val="326.0" module="src" type="Options" locRef="7" ln="717" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::set_wordlist_name(const char *)" item="Options::set_wordlist_name(const char *)" val="6.0" module="src" type="Options" locRef="7" ln="637" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::find_alpha_inc()" item="Search::find_alpha_inc()" val="89.0" module="src" type="Search" locRef="13" ln="614" />
+  <Metric id="METRIC.NOSLIM" itemId="src/input.cc#Input::read_input()" item="Input::read_input()" val="672.0" module="src" type="Input" locRef="10" ln="230" />
+  <Metric id="METRIC.NOSLIM" itemId="src/output.cc#Output_Defines::Output_Defines()" item="Output_Defines::Output_Defines()" val="1.0" module="src" type="Output_Defines" locRef="14" ln="161" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::count_possible_collisions(EquivalenceClass *, unsigned int) const" item="Search::count_possible_collisions(EquivalenceClass *, unsigned int) const" val="26.0" module="src" type="Search" locRef="13" ln="1053" />
+  <Metric id="METRIC.NOSLIM" itemId="src/options.cc#Options::short_usage(__sFILE64 *)" item="Options::short_usage(__sFILE64 *)" val="6.0" module="src" type="Options" locRef="7" ln="71" />
+  <Metric id="METRIC.NOSLIM" itemId="src/search.cc#Search::compute_alpha_unify() const" item="Search::compute_alpha_unify() const" val="16.0" module="src" type="Search" locRef="13" ln="196" />
+</Values></Metrics>

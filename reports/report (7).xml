@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ResultsSession buildId="build-2015-07-22 14:18:33" climode="true" hasViols="true" id="1438838900191" lang="en_US" machine="ParasoftUK1" project="Misra Demo" tag="Recommended Rules" time="2015-07-22T14:18:33+01:00" toolId="c++test" toolName="DTP Engine for C/C++" toolVer="10.1.4">
+   <TestConfig machine="ParasoftUK1" name="Recommended Rules" pseudoUrl="builtin://Recommended Rules" user="Andrew" />
+   <Authors>
+      <Author id="dev1" name="Andrew" />
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.pattern" name="Parasoft C/C++ Static Analyzer" ver="10.1.4" />
+      <Analyzer id="com.parasoft.xtest.dupcode.parser" name="Parasoft Code Duplication Parser" ver="10.1.4.20150706" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.metrics" name="Parasoft C/C++ Metrics Analyzer" ver="10.1.4" />
+      <Analyzer id="com.parasoft.xtest.dupcode.detector" name="Parasoft Code Duplication Detector" ver="10.1.4.20150706" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.flow" name="Parasoft C/C++ Flow Analyzer" ver="10.1.4" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.code" name="Parasoft C/C++ Code Analyzer" ver="10.1.4" />
+      <Analyzer id="xtest" name="Scope Analyzer" ver="1" />
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IDupCodeViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1" />
+   </VersionInfos>
+   <Goals tsks="6">
+      
+      <History>
+         <Graph id="gls">
+            <Categories>
+               <Category color="red" name="Total" pos="0" />
+            </Categories>
+            <Total secSer="1" title="" xTitle="Date" yTitle="Tasks" yTitle2="Total Tasks">
+               <X>07-22-15,</X>
+               <Y>6,</Y>
+               <Delta>6,</Delta>
+            </Total>
+         </Graph>
+      </History>
+   
+   </Goals>
+   <Metrics>
+      <Metric avg="7.264" disp="true" id="METRIC.CC" max="116" name="METRIC.CC" noi="148" stddev="14.705">
+         <Info avg="9.091" disp="true" elem="lib" max="70" noi="11" stddev="19.435" />
+         <Info avg="7.117" disp="true" elem="src" max="116" noi="137" stddev="14.247" />
+      </Metric>
+      <Metric avg="1.101" disp="true" id="METRIC.NBD" max="9" name="METRIC.NBD" noi="148" stddev="1.639">
+         <Info avg="1.273" disp="true" elem="lib" max="5" noi="11" stddev="1.601" />
+         <Info avg="1.088" disp="true" elem="src" max="9" noi="137" stddev="1.641" />
+      </Metric>
+      <Metric avg="542.133" disp="true" id="METRIC.NOPLIF" max="2105" name="METRIC.NOPLIF" noi="15" stddev="647.4">
+         <Info avg="342.5" disp="true" elem="lib" max="1040" noi="4" stddev="406.629" />
+         <Info avg="614.727" disp="true" elem="src" max="2105" noi="11" stddev="701.177" />
+      </Metric>
+      <Metric avg="36.507" disp="true" id="METRIC.NOSLIM" max="672" name="METRIC.NOSLIM" noi="148" stddev="76.635">
+         <Info avg="51.636" disp="true" elem="lib" max="339" noi="11" stddev="92.968" />
+         <Info avg="35.292" disp="true" elem="src" max="672" noi="137" stddev="75.037" />
+      </Metric>
+   </Metrics>
+   <Scope>
+      <Repositories />
+      <Locations>
+         <Loc hash="1902780378" locRef="1" projId="lib" projPath="/lib" project="lib" resProjPath="lib/getopt.c" totLns="1040" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/lib/getopt.c" />
+         <Loc hash="-231510622" locRef="2" projId="lib" projPath="/lib" project="lib" resProjPath="lib/getopt1.c" totLns="186" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/lib/getopt1.c" />
+         <Loc hash="-1003482131" locRef="3" projId="lib" projPath="/lib" project="lib" resProjPath="lib/getline.cc" totLns="117" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/lib/getline.cc" />
+         <Loc hash="-2034246803" locRef="4" projId="lib" projPath="/lib" project="lib" resProjPath="lib/hash.cc" totLns="27" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/lib/hash.cc" />
+         <Loc hash="-914632550" locRef="5" projId="src" projPath="/src" project="src" resProjPath="src/version.cc" totLns="26" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/version.cc" />
+         <Loc hash="1535193606" locRef="6" projId="src" projPath="/src" project="src" resProjPath="src/positions.cc" totLns="175" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/positions.cc" />
+         <Loc hash="333518089" locRef="7" projId="src" projPath="/src" project="src" resProjPath="src/options.cc" totLns="1072" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/options.cc" />
+         <Loc hash="717995569" locRef="8" projId="src" projPath="/src" project="src" resProjPath="src/keyword.cc" totLns="159" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/keyword.cc" />
+         <Loc hash="699865168" locRef="9" projId="src" projPath="/src" project="src" resProjPath="src/keyword-list.cc" totLns="173" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/keyword-list.cc" />
+         <Loc hash="-928228606" locRef="10" projId="src" projPath="/src" project="src" resProjPath="src/input.cc" totLns="1003" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/input.cc" />
+         <Loc hash="1152462269" locRef="11" projId="src" projPath="/src" project="src" resProjPath="src/bool-array.cc" totLns="45" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/bool-array.cc" />
+         <Loc hash="966543705" locRef="12" projId="src" projPath="/src" project="src" resProjPath="src/hash-table.cc" totLns="165" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/hash-table.cc" />
+         <Loc hash="-364779068" locRef="13" projId="src" projPath="/src" project="src" resProjPath="src/search.cc" totLns="1685" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/search.cc" />
+         <Loc hash="-1199708703" locRef="14" projId="src" projPath="/src" project="src" resProjPath="src/output.cc" totLns="2105" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/output.cc" />
+         <Loc hash="653787721" locRef="15" projId="src" projPath="/src" project="src" resProjPath="src/main.cc" totLns="154" uri="file://ParasoftUK1/V:/projects/gperf-3.0.4/src/main.cc" />
+      </Locations>
+   </Scope>
+   
+  <SetupProblems />
+
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:23">
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="4" checkedLns="1370" name="lib" qfixErrs="0" suppErrs="0" totErrs="1" totFiles="4" totLns="1370" />
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="11" checkedLns="6762" name="src" qfixErrs="0" suppErrs="0" totErrs="5" totFiles="11" totLns="6762" />
+      </Projects>
+      
+  <FADetails>
+    <HtmlDump value=".    getline.cc (41): size_t nchars_avail; /* Allocated but unused chars in *LINEPTR. */&#xd;&#xa;.    getline.cc (42): char *read_pos; /* Where we're reading into *LINEPTR. */&#xd;&#xa;.    getline.cc (44): if (!lineptr || !n || !stream)&#xd;&#xa;.    getline.cc (47): if (!*lineptr)&#xd;&#xa;.    getline.cc (49): *n = MIN_CHUNK;&#xd;&#xa;.C   getline.cc (50): *lineptr = new char[*n]; // Not initialized value: *lineptr[]&#xd;&#xa;.    getline.cc (53): nchars_avail = *n - offset; // Not initialized value: *lineptr[]&#xd;&#xa;.    getline.cc (54): read_pos = *lineptr + offset; // Not initialized value: *lineptr[]&#xd;&#xa;.    getline.cc (56): for (;;) // Not initialized value: *lineptr[]&#xd;&#xa;.    getline.cc (58): register int c = getc (stream); // Not initialized value: *lineptr[]&#xd;&#xa;.    getline.cc (64): assert (*n - nchars_avail == (size_t) (read_pos - *lineptr)); // Not initialized value: *lineptr[]&#xd;&#xa;.    getline.cc (65): if (nchars_avail &amp;lt; 2) // Not initialized value: *lineptr[]&#xd;&#xa;.    getline.cc (67): if (*n &amp;gt; MIN_CHUNK) // Not initialized value: *lineptr[]&#xd;&#xa;.    getline.cc (70): *n += MIN_CHUNK; // Not initialized value: *lineptr[]&#xd;&#xa;.    getline.cc (72): nchars_avail = *n + *lineptr - read_pos; // Not initialized value: *lineptr[]&#xd;&#xa;.    getline.cc (73): char *new_line = new char[*n]; // Not initialized value: *lineptr[]&#xd;&#xa;.    getline.cc (74): if (*lineptr) // Not initialized value: *lineptr[]&#xd;&#xa;.P   getline.cc (76): memcpy (new_line, *lineptr, read_pos - *lineptr); // Not initialized value: *lineptr[]" dumpId="1" />
+    <HtmlDump value=".    main.cc (51): int exitcode;&#xd;&#xa;.    main.cc (54): option.parse_options (argc, argv);&#xd;&#xa;.       options.cc (719): int option_char;&#xd;&#xa;.       options.cc (721): program_name = argv[0];&#xd;&#xa;.       options.cc (722): _argument_count = argc;&#xd;&#xa;.       options.cc (723): _argument_vector = argv;&#xd;&#xa;.       options.cc (727): &quot;acCdDe:Ef:F:gGhH:i:Ij:k:K:lL:m:nN:oOpPQ:rs:S:tTvW:Z:7&quot;,&#xd;&#xa;.       options.cc (725): getopt_long(...)&#xd;&#xa;.          getopt1.c (72): return _getopt_internal (argc, argv, options, long_options, opt_index, 0);&#xd;&#xa;.       options.cc (725): while ((option_char =&#xd;&#xa;.       options.cc (1053): if (/*getopt*/optind &amp;lt; argc)&#xd;&#xa;.       options.cc (1056): if (/*getopt*/optind &amp;lt; argc)&#xd;&#xa;.    main.cc (57): if (option.get_input_file_name ())&#xd;&#xa;.C   main.cc (58): freopen(...) // Opened file: freopen(...)&#xd;&#xa;.P   main.cc (58): if (!freopen (option.get_input_file_name (), &quot;r&quot;, stdin)) // Opened file: freopen(...)" dumpId="2" />
+  </FADetails>
+
+      
+      <History>
+         <Graph id="lns">
+            <Categories>
+               <Category color="blue" name="Total Lines" pos="0" />
+               <Category color="green" name="Checked Lines" pos="1" />
+               <Category authPos="0" color="red" name="Tasks" pos="2" />
+            </Categories>
+            <Total secSer="1" title="" xTitle="Date" yTitle="Lines" yTitle2="Tasks">
+               <X>07-22-15,</X>
+               <Y>8132,8132,6,</Y>
+               <Delta>8132,8132,6,</Delta>
+            </Total>
+            <Authors title="" xTitle="Date" yTitle="Total Tasks">
+               <Author name="Andrew">
+                  <X>07-22-15,</X>
+                  <Y>6,</Y>
+                  <Delta>6,</Delta>
+               </Author>
+            </Authors>
+         </Graph>
+      </History>
+   
+      
+      <Rules>
+         <CategoriesList>
+            <Category authTot="0;" authUrg="0;" desc="Flow Analysis" name="BD" rules="57" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Miscellaneous" name="BD-MISC" rules="2" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Security" name="BD-SECURITY" rules="10" total="0" />
+               <Category authTot="1;" authUrg="1;" desc="Resources" name="BD-RES" rules="5" total="1" />
+               <Category authTot="0;" authUrg="0;" desc="Incorrect API usage" name="BD-API" rules="2" total="0" />
+               <Category authTot="1;" authUrg="1;" desc="Possible Bugs" name="BD-PB" rules="29" total="1" />
+               <Category authTot="0;" authUrg="0;" desc="Threads &amp; Synchronization" name="BD-TRS" rules="6" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Containers" name="BD-CO" rules="3" total="0" />
+            </Category>
+            <Category authTot="1;" authUrg="1;" desc="Code Duplication Detection" name="CDD" rules="4" total="1" />
+            <Category authTot="0;" authUrg="0;" desc="Coding Conventions" name="CODSTA" rules="244" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Coding Conventions for C++" name="CODSTA-CPP" rules="91" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Comments" name="COMMENT" rules="13" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Exceptions" name="EXCEPT" rules="18" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Formatting" name="FORMAT" rules="46" total="0" />
+            <Category authTot="2;" authUrg="2;" desc="Initialization" name="INIT" rules="18" total="2" />
+            <Category authTot="0;" authUrg="0;" desc="Joint Strike Fighter" name="JSF" rules="268" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Metrics" name="METRICS" rules="43" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="MISRA C" name="MISRA" rules="60" total="0" />
+            <Category authTot="1;" authUrg="1;" desc="MISRA C 2004" name="MISRA2004" rules="208" total="1" />
+            <Category authTot="0;" authUrg="0;" desc="MISRA C++ 2008" name="MISRA2008" rules="274" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="MISRA C 2012" name="MISRA2012" rules="102" total="0">
+               <Category authTot="0;" authUrg="0;" desc="MISRA C 2012 Rules" name="MISRA2012-RULE" rules="95" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="MISRA C 2012 Directives" name="MISRA2012-DIR" rules="7" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Memory and Resource Management" name="MRM" rules="52" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Naming Conventions" name="NAMING" rules="93" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Hungarian Notation" name="NAMING-HN" rules="44" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Object Oriented" name="OOP" rules="56" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Optimization" name="OPT" rules="40" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Parser diagnostics" name="PARSER" rules="2" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Possible Bugs" name="PB" rules="70" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Physical File Organization" name="PFO" rules="9" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Portability" name="PORT" rules="26" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Preprocessor" name="PREPROC" rules="18" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Qt Best Practices" name="QT" rules="18" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Security" name="SECURITY" rules="42" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="STL Best Practices" name="STL" rules="42" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Template" name="TEMPL" rules="12" total="0" />
+         </CategoriesList>
+         <RulesList>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-API" desc="Do not pass negative values to functions expecting non-negative arguments" id="BD-API-NEGPARAM" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="Avoid accessing arrays out of bounds" id="BD-PB-ARRAY" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="Always catch exceptions" id="BD-PB-EXCEPT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="1;" authUrg="1;" cat="BD-PB" desc="Avoid use before initialization" id="BD-PB-NOTINIT" sev="1" total="1" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="Avoid null pointer dereferencing" id="BD-PB-NP" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="Avoid buffer overflow due to defining incorrect format limits" id="BD-PB-OVERFFMT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="Avoid overflow due to reading a not zero terminated string" id="BD-PB-OVERFNZT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="Avoid overflow when reading from a buffer" id="BD-PB-OVERFRD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="Avoid overflow when writing to a buffer" id="BD-PB-OVERFWR" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="Avoid division by zero" id="BD-PB-ZERO" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="Do not check for null after dereferencing" id="BD-PB-DEREF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="Suspicious setting of stream flags" id="BD-PB-STREAMFLAGS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="Restore stream format" id="BD-PB-STREAMFMT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-RES" desc="Do not use resources that have been freed" id="BD-RES-FREE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-RES" desc="Do not free resources using invalid pointers" id="BD-RES-INVFREE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="1;" authUrg="1;" cat="BD-RES" desc="Ensure resources are freed" id="BD-RES-LEAKS" sev="1" total="1" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="Avoid double locking" id="BD-TRS-DLOCK" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="Do not abandon unreleased locks" id="BD-TRS-LOCK" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="Do not acquire locks in different order" id="BD-TRS-ORDER" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="Do not use blocking functions while holding a lock" id="BD-TRS-TSHL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.dupcode" authTot="1;" authUrg="1;" cat="CDD" desc="Avoid function duplication" id="CDD-DUPM" sev="2" total="1" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Local variables should not use the same names as member variables" id="CODSTA-44" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Pointer should not be compared with NULL using relational operators &lt;, >, >=, &lt;=" id="CODSTA-147" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Do not use string literals as operands of equality or relational operators" id="CODSTA-148" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Avoid infinite loops" id="CODSTA-82" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Throw by value, catch by reference" id="EXCEPT-02" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Do not throw from within destructor" id="EXCEPT-03" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="2;" authUrg="2;" cat="INIT" desc="All member variables should be initialized in constructor" id="INIT-06" sev="1" total="2" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="1;" authUrg="1;" cat="MISRA2004" desc="Floating-point expressions shall not be tested for equality or inequality" id="MISRA2004-13_3" sev="3" total="1" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="All exit paths from a function with non-void return type shall have an explicit return statement with an expression" id="MISRA2004-16_8" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="The address of an object with automatic storage shall not be returned from a function" id="MISRA2004-17_6_a" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not invoke malloc/realloc for objects having constructors" id="MRM-08" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Declare a copy assignment operator for classes with dynamically allocated memory" id="MRM-37" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Declare a copy constructor for classes with dynamically allocated memory" id="MRM-38" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Never provide brackets ([]) for delete when deallocating non-arrays" id="MRM-35" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Always provide empty brackets ([]) for delete when deallocating arrays" id="MRM-36" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not use 'delete' on pointers to a void type" id="MRM-51" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Class cannot inherit other class more than once unless it is virtual inheritance" id="OOP-03" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid calling virtual functions from constructors" id="OOP-16" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="If a class has virtual functions it shall have a virtual destructor" id="OOP-23" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Pass objects by reference instead of by value" id="OPT-14" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Do not call delete on non-pointers" id="PB-13" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Properly terminate character strings" id="PB-21" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Do not cast from or to incomplete class at the point of casting" id="PB-54" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Do not delete objects with incomplete class at the point of deletion" id="PB-55" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Boolean condition always evaluates to the same value due to enumeration with only zero or only non-zero constants" id="PB-68" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Suspicious argument to malloc" id="PB-60" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Pointer arithmetic performed on freshly allocated memory" id="PB-61" sev="3" total="0" />
+         </RulesList>
+         <SeverityList>
+            <Severity authTot="4;" authUrg="4;" id="1" total="4" />
+            <Severity authTot="1;" authUrg="1;" id="2" total="1" />
+            <Severity authTot="1;" authUrg="1;" id="3" total="1" />
+         </SeverityList>
+      </Rules>
+      
+  <Supps />
+
+      
+  <StdViols>
+    <FlowViol sev="1" FirstElSrcRngFile="/lib/lib/getline.cc" ln="76" tool="c++test" lnHash="-1234552320" lang="cpp" lineHash="-1234552320" locRef="3" id="-444604255" locStartln="76" locStartPos="0" rule="BD-PB-NOTINIT" locEndPos="0" causeLocRef="3" FirstElSrcRngEndLn="51" hash="-1003482131" urgent="true" FirstElSrcRngStartln="50" ruleSCSCMsg="Source of not Initialized Value" locEndLn="77" locType="sr" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" FirstElSrcRngStartPos="0" msg="&quot;*lineptr[]&quot; is used prior to initialization" goals="1," locFile="/lib/lib/getline.cc" dumpId="1" ruleRHMsg="Call to function may not perform initialization" ruleSAFMsg="Usage Point" auth="Andrew" FirstElSrcRngEndPos="0">
+      <Props>
+        <Prop key="Tracked variables" val="Not initialized value" />
+      </Props>
+      <ElDescList>
+        <ElDesc locRef="3" lineHash="1976057386" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="42" ln="41" srcRngEndPos="0" srcRngStartln="41" srcRngStartPos="0" desc="size_t nchars_avail; /* Allocated but unused chars in *LINEPTR. */" ElType="." rngLn="41">
+          <Props />
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="562028337" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="43" ln="42" srcRngEndPos="0" srcRngStartln="42" srcRngStartPos="0" desc="char *read_pos; /* Where we're reading into *LINEPTR. */" ElType="." rngLn="42">
+          <Props />
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="1883374579" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="45" ln="44" srcRngEndPos="0" srcRngStartln="44" srcRngStartPos="0" desc="if (!lineptr || !n || !stream)" ElType="." rngLn="44">
+          <Props />
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="1801319357" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="48" ln="47" srcRngEndPos="0" srcRngStartln="47" srcRngStartPos="0" desc="if (!*lineptr)" ElType="." rngLn="47">
+          <Props />
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="-1542812902" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="50" ln="49" srcRngEndPos="0" srcRngStartln="49" srcRngStartPos="0" desc="*n = MIN_CHUNK;" ElType="." rngLn="49">
+          <Props />
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="1423477524" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="51" ln="50" srcRngEndPos="0" srcRngStartln="50" srcRngStartPos="0" desc="*lineptr = new char[*n];" ElType=".C" rngLn="50">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="-1868983843" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="54" ln="53" srcRngEndPos="0" srcRngStartln="53" srcRngStartPos="0" desc="nchars_avail = *n - offset;" ElType="." rngLn="53">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="-1494860901" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="55" ln="54" srcRngEndPos="0" srcRngStartln="54" srcRngStartPos="0" desc="read_pos = *lineptr + offset;" ElType="." rngLn="54">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="698749080" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="57" ln="56" srcRngEndPos="0" srcRngStartln="56" srcRngStartPos="0" desc="for (;;)" ElType="." rngLn="56">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="-252112235" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="59" ln="58" srcRngEndPos="0" srcRngStartln="58" srcRngStartPos="0" desc="register int c = getc (stream);" ElType="." rngLn="58">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="-283090218" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="65" ln="64" srcRngEndPos="0" srcRngStartln="64" srcRngStartPos="0" desc="assert (*n - nchars_avail == (size_t) (read_pos - *lineptr));" ElType="." rngLn="64">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="-89993225" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="66" ln="65" srcRngEndPos="0" srcRngStartln="65" srcRngStartPos="0" desc="if (nchars_avail &lt; 2)" ElType="." rngLn="65">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="-464206878" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="68" ln="67" srcRngEndPos="0" srcRngStartln="67" srcRngStartPos="0" desc="if (*n > MIN_CHUNK)" ElType="." rngLn="67">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="1554425869" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="71" ln="70" srcRngEndPos="0" srcRngStartln="70" srcRngStartPos="0" desc="*n += MIN_CHUNK;" ElType="." rngLn="70">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="-1229755078" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="73" ln="72" srcRngEndPos="0" srcRngStartln="72" srcRngStartPos="0" desc="nchars_avail = *n + *lineptr - read_pos;" ElType="." rngLn="72">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="1556823831" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="74" ln="73" srcRngEndPos="0" srcRngStartln="73" srcRngStartPos="0" desc="char *new_line = new char[*n];" ElType="." rngLn="73">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="-350193964" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="75" ln="74" srcRngEndPos="0" srcRngStartln="74" srcRngStartPos="0" desc="if (*lineptr)" ElType="." rngLn="74">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="3" lineHash="-1234552320" srcRnghash="-1003482131" locType="sr" srcRngFile="/lib/lib/getline.cc" srcRngEndLn="77" ln="76" srcRngEndPos="0" srcRngStartln="76" srcRngStartPos="0" desc="memcpy (new_line, *lineptr, read_pos - *lineptr);" ElType=".P" rngLn="76">
+          <Props>
+            <Prop key="Tracked variables" val="*lineptr[]" />
+          </Props>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol sev="1" ln="369" hash="333518089" urgent="true" tool="c++test" locEndLn="369" locType="sr" lnHash="-1052016686" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" msg="Constructor does not initialize members: '_range_upper_bound, _range_curr_value'" lang="cpp" locRef="7" lineHash="-1052016686" goals="1," locStartln="369" locStartPos="22" locFile="/src/src/options.cc" rule="INIT-06" locEndPos="23" auth="Andrew" />
+    <StdViol sev="3" ln="969" hash="333518089" urgent="true" tool="c++test" locEndLn="969" locType="sr" lnHash="-11326707" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" msg="Do not use &quot;==&quot; or &quot;!=&quot; to test floating-point expression" lang="cpp" locRef="7" lineHash="-11326707" goals="1," locStartln="969" locStartPos="16" locFile="/src/src/options.cc" rule="MISRA2004-13_3" locEndPos="17" auth="Andrew" />
+    <StdViol sev="1" ln="186" hash="-1199708703" urgent="true" tool="c++test" locEndLn="186" locType="sr" lnHash="-1098302471" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" msg="Constructor does not initialize members: '_pending_comma'" lang="cpp" locRef="14" lineHash="-1098302471" goals="1," locStartln="186" locStartPos="24" locFile="/src/src/output.cc" rule="INIT-06" locEndPos="25" auth="Andrew" />
+    <DupViol sev="2" ln="323" hash="-1199708703" urgent="true" tool="c++test" locEndLn="377" locType="sr" lnHash="123" analyzer="com.parasoft.xtest.dupcode.detector" msg="Duplicated function: ' static void output_upperlower_strncmp ( ) { printf (...'" lang="cpp" locRef="14" lineHash="123" goals="1," locStartln="323" locStartPos="0" locFile="/src/src/output.cc" rule="CDD-DUPM" locEndPos="1" auth="Andrew">
+      <ElDescList>
+        <ElDesc locRef="14" lineHash="123" srcRnghash="-1199708703" locType="sr" srcRngFile="/src/src/output.cc" srcRngEndLn="377" ln="323" srcRngEndPos="1" srcRngStartln="323" srcRngStartPos="0" desc="[Line 323] Duplicated function in file 'output.cc'" rngLn="323" />
+        <ElDesc locRef="14" lineHash="123" srcRnghash="-1199708703" locType="sr" srcRngFile="/src/src/output.cc" srcRngEndLn="437" ln="383" srcRngEndPos="1" srcRngStartln="383" srcRngStartPos="0" desc="[Line 383] Duplicated function in file 'output.cc'" rngLn="383" />
+      </ElDescList>
+    </DupViol>
+    <FlowViol sev="1" FirstElSrcRngFile="/src/src/main.cc" ln="58" tool="c++test" lnHash="1598534289" lang="cpp" lineHash="1598534289" locRef="15" id="-1462877241" locStartln="58" locStartPos="0" rule="BD-RES-LEAKS" locEndPos="0" causeLocRef="15" FirstElSrcRngEndLn="59" hash="653787721" urgent="true" FirstElSrcRngStartln="58" ruleSCSCMsg="Point where File is Opened" locEndLn="59" locType="sr" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" FirstElSrcRngStartPos="0" msg="File not closed: freopen(...)" goals="1," locFile="/src/src/main.cc" dumpId="2" ruleSAFMsg="Point where Opened File is Lost" auth="Andrew" FirstElSrcRngEndPos="0">
+      <Props>
+        <Prop key="Tracked variables" val="Opened file" />
+      </Props>
+      <ElDescList>
+        <ElDesc locRef="15" lineHash="1218228895" srcRnghash="653787721" locType="sr" srcRngFile="/src/src/main.cc" srcRngEndLn="52" ln="51" srcRngEndPos="0" srcRngStartln="51" srcRngStartPos="0" desc="int exitcode;" ElType="." rngLn="51">
+          <Props />
+        </ElDesc>
+        <ElDesc locRef="15" lineHash="-195292172" srcRnghash="653787721" locType="sr" srcRngFile="/src/src/main.cc" srcRngEndLn="55" ln="54" srcRngEndPos="0" srcRngStartln="54" srcRngStartPos="0" desc="option.parse_options (argc, argv);" ElType="." rngLn="54">
+          <ElDescList>
+            <ElDesc locRef="7" lineHash="1513205740" srcRnghash="333518089" locType="sr" srcRngFile="/src/src/options.cc" srcRngEndLn="720" ln="719" srcRngEndPos="0" srcRngStartln="719" srcRngStartPos="0" desc="int option_char;" ElType="." rngLn="719">
+              <Props />
+            </ElDesc>
+            <ElDesc locRef="7" lineHash="-291494960" srcRnghash="333518089" locType="sr" srcRngFile="/src/src/options.cc" srcRngEndLn="722" ln="721" srcRngEndPos="0" srcRngStartln="721" srcRngStartPos="0" desc="program_name = argv[0];" ElType="." rngLn="721">
+              <Props />
+            </ElDesc>
+            <ElDesc locRef="7" lineHash="-565801537" srcRnghash="333518089" locType="sr" srcRngFile="/src/src/options.cc" srcRngEndLn="723" ln="722" srcRngEndPos="0" srcRngStartln="722" srcRngStartPos="0" desc="_argument_count = argc;" ElType="." rngLn="722">
+              <Props />
+            </ElDesc>
+            <ElDesc locRef="7" lineHash="-67555746" srcRnghash="333518089" locType="sr" srcRngFile="/src/src/options.cc" srcRngEndLn="724" ln="723" srcRngEndPos="0" srcRngStartln="723" srcRngStartPos="0" desc="_argument_vector = argv;" ElType="." rngLn="723">
+              <Props />
+            </ElDesc>
+            <ElDesc locRef="7" lineHash="1458907015" srcRnghash="333518089" locType="sr" srcRngFile="/src/src/options.cc" srcRngEndLn="728" ln="727" srcRngEndPos="0" srcRngStartln="727" srcRngStartPos="0" desc="&quot;acCdDe:Ef:F:gGhH:i:Ij:k:K:lL:m:nN:oOpPQ:rs:S:tTvW:Z:7&quot;," ElType="." rngLn="727">
+              <Props />
+            </ElDesc>
+            <ElDesc locRef="7" lineHash="1566485774" srcRnghash="333518089" locType="sr" srcRngFile="/src/src/options.cc" srcRngEndLn="726" ln="725" srcRngEndPos="0" srcRngStartln="725" srcRngStartPos="0" desc="getopt_long(...)" ElType="." rngLn="725">
+              <ElDescList>
+                <ElDesc locRef="2" lineHash="447140988" srcRnghash="-231510622" locType="sr" srcRngFile="/lib/lib/getopt1.c" srcRngEndLn="73" ln="72" srcRngEndPos="0" srcRngStartln="72" srcRngStartPos="0" desc="return _getopt_internal (argc, argv, options, long_options, opt_index, 0);" ElType="." rngLn="72">
+                  <Props />
+                </ElDesc>
+              </ElDescList>
+              <Props />
+            </ElDesc>
+            <ElDesc locRef="7" lineHash="1566485774" srcRnghash="333518089" locType="sr" srcRngFile="/src/src/options.cc" srcRngEndLn="726" ln="725" srcRngEndPos="0" srcRngStartln="725" srcRngStartPos="0" desc="while ((option_char =" ElType="." rngLn="725">
+              <Props />
+            </ElDesc>
+            <ElDesc locRef="7" lineHash="-831340314" srcRnghash="333518089" locType="sr" srcRngFile="/src/src/options.cc" srcRngEndLn="1054" ln="1053" srcRngEndPos="0" srcRngStartln="1053" srcRngStartPos="0" desc="if (/*getopt*/optind &lt; argc)" ElType="." rngLn="1053">
+              <Props />
+            </ElDesc>
+            <ElDesc locRef="7" lineHash="-831340314" srcRnghash="333518089" locType="sr" srcRngFile="/src/src/options.cc" srcRngEndLn="1057" ln="1056" srcRngEndPos="0" srcRngStartln="1056" srcRngStartPos="0" desc="if (/*getopt*/optind &lt; argc)" ElType="." rngLn="1056">
+              <Props />
+            </ElDesc>
+          </ElDescList>
+          <Props />
+        </ElDesc>
+        <ElDesc locRef="15" lineHash="-330044892" srcRnghash="653787721" locType="sr" srcRngFile="/src/src/main.cc" srcRngEndLn="58" ln="57" srcRngEndPos="0" srcRngStartln="57" srcRngStartPos="0" desc="if (option.get_input_file_name ())" ElType="." rngLn="57">
+          <Props />
+        </ElDesc>
+        <ElDesc locRef="15" lineHash="1598534289" srcRnghash="653787721" locType="sr" srcRngFile="/src/src/main.cc" srcRngEndLn="59" ln="58" srcRngEndPos="0" srcRngStartln="58" srcRngStartPos="0" desc="freopen(...)" ElType=".C" rngLn="58">
+          <Props>
+            <Prop key="Tracked variables" val="freopen(...)" />
+          </Props>
+        </ElDesc>
+        <ElDesc locRef="15" lineHash="1598534289" srcRnghash="653787721" locType="sr" srcRngFile="/src/src/main.cc" srcRngEndLn="59" ln="58" srcRngEndPos="0" srcRngStartln="58" srcRngStartPos="0" desc="if (!freopen (option.get_input_file_name (), &quot;r&quot;, stdin))" ElType=".P" rngLn="58">
+          <Props>
+            <Prop key="Tracked variables" val="freopen(...)" />
+          </Props>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+  </StdViols>
+
+      <TestedFilesDetails>
+         <Total name="Suppressed / Total" supp="0" total="6">
+            <Project name="lib" supp="0" total="1">
+               <Res name="lib" supp="0" total="1">
+                  <Res loc="/lib/lib/getopt.c" locRef="1" locType="sr" name="getopt.c" supp="0" total="0" />
+                  <Res loc="/lib/lib/getopt1.c" locRef="2" locType="sr" name="getopt1.c" supp="0" total="0" />
+                  <Res loc="/lib/lib/getline.cc" locRef="3" locType="sr" name="getline.cc" supp="0" total="1" />
+                  <Res loc="/lib/lib/hash.cc" locRef="4" locType="sr" name="hash.cc" supp="0" total="0" />
+               </Res>
+            </Project>
+            <Project name="src" supp="0" total="5">
+               <Res name="src" supp="0" total="5">
+                  <Res loc="/src/src/version.cc" locRef="5" locType="sr" name="version.cc" supp="0" total="0" />
+                  <Res loc="/src/src/positions.cc" locRef="6" locType="sr" name="positions.cc" supp="0" total="0" />
+                  <Res loc="/src/src/options.cc" locRef="7" locType="sr" name="options.cc" supp="0" total="2" />
+                  <Res loc="/src/src/keyword.cc" locRef="8" locType="sr" name="keyword.cc" supp="0" total="0" />
+                  <Res loc="/src/src/keyword-list.cc" locRef="9" locType="sr" name="keyword-list.cc" supp="0" total="0" />
+                  <Res loc="/src/src/input.cc" locRef="10" locType="sr" name="input.cc" supp="0" total="0" />
+                  <Res loc="/src/src/bool-array.cc" locRef="11" locType="sr" name="bool-array.cc" supp="0" total="0" />
+                  <Res loc="/src/src/hash-table.cc" locRef="12" locType="sr" name="hash-table.cc" supp="0" total="0" />
+                  <Res loc="/src/src/search.cc" locRef="13" locType="sr" name="search.cc" supp="0" total="0" />
+                  <Res loc="/src/src/output.cc" locRef="14" locType="sr" name="output.cc" supp="0" total="2" />
+                  <Res loc="/src/src/main.cc" locRef="15" locType="sr" name="main.cc" supp="0" total="1" />
+               </Res>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

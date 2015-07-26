@@ -1,0 +1,167 @@
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\lib
+project_name=lib
+arg=V:\cygwin\bin\gcc.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-c
+arg=./getopt.c
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\lib
+project_name=lib
+arg=V:\cygwin\bin\gcc.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-c
+arg=./getopt1.c
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\lib
+project_name=lib
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-c
+arg=./getline.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\lib
+project_name=lib
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-c
+arg=./hash.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-I./../lib
+arg=-c
+arg=./version.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-I./../lib
+arg=-c
+arg=./positions.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-I./../lib
+arg=-c
+arg=./options.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-I./../lib
+arg=-c
+arg=./keyword.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-I./../lib
+arg=-c
+arg=./keyword-list.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-I./../lib
+arg=-c
+arg=./input.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-I./../lib
+arg=-c
+arg=./bool-array.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-I./../lib
+arg=-c
+arg=./hash-table.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-I./../lib
+arg=-c
+arg=./search.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-I./../lib
+arg=-c
+arg=./output.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-I.
+arg=-I./../lib
+arg=-c
+arg=./main.cc
+------- cpptestscan v.10.1.4.20150707B68 (cpptesttrace) -------
+working_dir=V:\projects\gperf-3.0.4\src
+project_name=src
+arg=V:\cygwin\bin\g++.exe
+arg=-g
+arg=-O2
+arg=-o
+arg=gperf.exe
+arg=version.o
+arg=positions.o
+arg=options.o
+arg=keyword.o
+arg=keyword-list.o
+arg=input.o
+arg=bool-array.o
+arg=hash-table.o
+arg=search.o
+arg=output.o
+arg=main.o
+arg=../lib/libgp.a
+arg=-lm
